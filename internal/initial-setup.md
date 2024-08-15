@@ -1,6 +1,9 @@
 Rough notes on new project setup
 
-# Installing vitepress
+# Installation
+
+## Vitepress
+
 ```
 npm add -D vitepress        # Install vitepress
 npx vitepress init          # Initialize a new project
@@ -32,5 +35,6 @@ Before pushing changes, run the following to build the site and check for errors
 npm run docs:build
 npm run docs:preview
 ```
+
 
 

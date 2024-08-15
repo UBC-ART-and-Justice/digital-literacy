@@ -1,4 +1,6 @@
-/* Iconify */
+/* 
+ * Iconify
+ * ========================================================================== */
 
 .text-with-icon {
     display: flex;
@@ -24,7 +26,32 @@
     margin-right: 0.5em;
 }
 
-/* Medium Zoom */
+/* 
+ * Card Custom Colors
+ * ========================================================================== */
+
+:root {
+    --card-disabled-bg-1: #e0e0e0;
+    --card-disabled-bg-2: #d0d0d0;
+    --card-disabled-bg-3: #c0c0c0;
+    --card-disabled-text-1: #888;
+    --card-disabled-text-2: #777;
+    --card-disabled-text-3: #666;
+
+}
+
+.dark {
+    --card-disabled-bg-1: #19191b;
+    --card-disabled-bg-2: #131313;
+    --card-disabled-bg-3: #0d0d0d;
+    --card-disabled-text-1: #656569;
+    --card-disabled-text-2: #5a5a5e;
+    --card-disabled-text-3: #4f4f53;
+}
+
+/* 
+ * Medium Zoom
+ * ========================================================================== */
 
 .medium-zoom-overlay {
     z-index: 30;
