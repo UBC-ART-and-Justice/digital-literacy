@@ -1,4 +1,6 @@
-# Unit 1 Topics: Navigating Your Tablet
+# Unit 1: Navigating Your Tablet
+
+## Topics
 
 <VitepressCardContainer :cols="2">
     <VitepressCard

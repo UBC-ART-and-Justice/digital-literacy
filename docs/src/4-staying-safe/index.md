@@ -4,9 +4,7 @@ You can do so much while using computers and the internet. Tasks that were previ
 
 This is true for everyone! Sometimes on the news, you might hear about people being “hacked” or or having their “data stolen”. However, there are some simple things you can do to stay safe. Just like how you might lock your front door as a good habit, there are some habits to keep your digital life safe.
 
-<figure markdown="span">
-  ![A golden padlock sitting on top of a keyboard](../../assets/img/course/4-staying-safe/padlock.jpg){ width="400" }
-</figure>
+![A golden padlock sitting on top of a keyboard](/course/4-staying-safe/padlock.jpg){ width="400" style="display: block; margin: 0 auto" }
 
 <!-- https://unsplash.com/photos/a-golden-padlock-sitting-on-top-of-a-keyboard-FnA5pAzqhMM -->
 
@@ -20,8 +18,54 @@ You don’t need to understand how a lock works before you use it, and you don�
 
 The extra information will be inside a box like this. To read it, tap on the box:
 
-??? extra-info "Why would I want to know more?"
+::: details Why would I want to know more?
 
-    Sometimes the extra information can help you understand the topic better.
+Sometimes the extra information can help you understand the topic better.
 
-    Sometimes it's just cool to know how things work!
+Sometimes it's just cool to know how things work!
+:::
+
+## Topics
+
+<VitepressCardContainer :cols="2">
+  <VitepressCard
+    icon="ic:round-update"
+    iconColor="#30a46c"
+    title="Updates"
+    body="This section covers what updates are, why they are important, and how to install them."
+    link="./4.1-updates"
+    linkText="Go to section"
+  />
+  <VitepressCard
+    icon="ic:twotone-lock"
+    iconColor="#30a46c"
+    title="Passwords"
+    body="This section covers what passwords are and what makes a 'good' password."
+    link="./4.2-passwords"
+    linkText="Go to section"
+  />
+  <VitepressCard
+    icon="mdi:encryption-outline"
+    iconColor="#30a46c"
+    title="Encryption"
+    body="This section covers what encryption is, and how it can help keep your information safe."
+    link="./4.3-encryption"
+    linkText="Go to section"
+  />
+  <VitepressCard
+    icon="ph:virus-duotone"
+    iconColor="#30a46c"
+    title="Viruses"
+    body="This section covers what viruses are, and how to protect your computer from them."
+    link="./4.4-viruses"
+    linkText="Go to section"
+  />
+  <VitepressCard
+    icon="mdi:internet"
+    iconColor="#30a46c"
+    title="Internet Safety"
+    body="This section covers how to access the internet safely, and what to watch out for."
+    link="./4.5-internet-safety"
+    linkText="Go to section"
+  />
+</VitepressCardContainer>
