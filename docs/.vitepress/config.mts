@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Digital Literacy",
   description: "Digital Literacy Content",
+  base: '/digital-literacy/',
   srcDir: './src',
   head: [
     ['link', { rel: 'icon', href: '/stack-of-books.png' }]
