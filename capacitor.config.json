@@ -1,0 +1,5 @@
+{
+  "appId": "org.artjusticeresearch.digitalliteracy",
+  "appName": "Digital Literacy",
+  "webDir": "docs/.vitepress/dist"
+}

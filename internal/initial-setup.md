@@ -37,4 +37,23 @@ npm run docs:preview
 ```
 
 
+# Creating an Android App
 
+https://capacitorjs.com/docs/getting-started
+
+```
+npm i @capacitor/core
+npm i -D @capacitor/cli
+```
+
+```
+npx cap init
+```
+
+```
+npm install @capacitor/android
+```
+
+```
+npx cap add android
+```
