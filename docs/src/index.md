@@ -23,3 +23,8 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+
+<h3 class="text-with-icon">
+    <Icon icon="ci:folders" width="1.2em" height="1.2em" />
+    Relevant Projects
+</h3>
