@@ -57,3 +57,8 @@ npm install @capacitor/android
 ```
 npx cap add android
 ```
+
+Open Android Studio and import the android/ directory as an Android Studio project.
+
+
+
