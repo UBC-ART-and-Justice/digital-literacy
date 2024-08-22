@@ -1,6 +1,6 @@
 # UBC Wiki
 
-This is the repository for: https://ubc-art-and-justice.github.io/digital-literacy/
+Website: https://ubc-art-and-justice.github.io/digital-literacy/
 
 ## Technical Details
 
@@ -8,3 +8,4 @@ The website was created with Vitepress, and the Android app was built by adding 
 
 The focus of this project is to create an accessible and open-source digital literacy resource that can run offline. The website is intended to be mobile-friendly.
 
+For setup and contribution guides, see the [repository wiki](https://github.com/UBC-ART-and-Justice/digital-literacy/wiki).
