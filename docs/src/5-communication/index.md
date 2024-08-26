@@ -1,4 +1,4 @@
-# Unit 1: Communication
+# Unit 5: Communication
 
 This section covers different ways of using technology to communicate with others. These ways include email, texting, social media, and more. We will describe the features, uses, and relevant terminology for each communication type. We have not included step-by-step instructions for using each communication method. This is because technology evolves quickly, and the instructions would soon become outdated.
 
