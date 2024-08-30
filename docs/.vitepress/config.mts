@@ -79,6 +79,12 @@ export default defineConfig({
           { text: 'Texting', link: '/5-communication/5.2-texting.md' },
           { text: 'Direct Messaging', link: '/5-communication/5.3-direct-message.md' },
         ]
+      },
+      {
+        text: 'Test Pages',
+        items: [
+          { text: 'Test Page', link: '/test.md' },
+        ]
       }
     ]
   }
