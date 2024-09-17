@@ -7,7 +7,8 @@ export default defineConfig({
   base: process.env.VITEPRESS_BASE || '/',
   srcDir: './src',
   head: [
-    ['link', { rel: 'icon', href: '/logo.png' }]
+    ['link', { rel: 'icon', href: 'https://ubc-art-and-justice.github.io/digital-literacy/logo.png' }],
+    ['meta', { property: 'og:image', content: 'https://ubc-art-and-justice.github.io/digital-literacy/social-share.png' }]
   ],
   cleanUrls: true,
   lastUpdated: false,

@@ -9,7 +9,7 @@ The focus of this project is to create an accessible and open-source digital lit
 **View the website: [Digital Literacy](https://ubc-art-and-justice.github.io/digital-literacy/)**
 
 <p align="center">
-    <img width="360" height="203" src="./docs/src/public/digital-literacy-web.png">
+    <img width="540" height="304" src="./docs/src/public/digital-literacy-web.png">
 </p>
 
 **Download the Android app:**
@@ -19,7 +19,7 @@ We are still in the process of releasing the Android app to the Play Store and F
 In the meantime, if you have experience with Android development, you can build the app yourself by following the instructions in the [repository wiki](https://github.com/UBC-ART-and-Justice/digital-literacy/wiki/Modifying-the-Android-App-with-CapacitorJS).
 
 <p align="center">
-    <img width="360" height="203" src="./docs/src/public/digital-literacy-mobile.png">
+    <img width="360" height="304" src="./docs/src/public/digital-literacy-mobile.png">
 </p>
 
 
