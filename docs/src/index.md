@@ -4,7 +4,6 @@ layout: home
 
 hero:
   name: "Digital Literacy"
-  # text: "Digital Literacy Content"
   # tagline: An arts based initiative by the UBC A.R.T. & Justice Research Project group.
   # actions:
   #   - theme: brand
@@ -24,15 +23,14 @@ hero:
 ---
 
 # Welcome to the Digital Literacy Project
-
-This is an arts based initiative by the UBC A.R.T. & Justice Research Project group, to support the well-being of people in prison. These lessons on digital literacy, which are designed to be accessible to anyone, regardless of their prior experience.
+This is an arts based initiative by the UBC A.R.T. & Justice Research Project group, to support the well-being of people in prison. These lessons on digital literacy are designed to be accessible to anyone, regardless of their prior experience.
 
 ## Content
 
 <VitepressCardContainer :cols="2">
   <VitepressCard
     icon="icon-park-twotone:new-computer"
-    iconColor="#30a46c"
+    iconColor="var(--vp-c-brand-2)"
     title="Introduction"
     body="This page contains one person's story and experience with encountering new technology after being in prison."
     link="./tech-terror-experience"
@@ -40,7 +38,7 @@ This is an arts based initiative by the UBC A.R.T. & Justice Research Project gr
   />
   <VitepressCard
     icon="ant-design:tablet-twotone"
-    iconColor="#30a46c"
+    iconColor="var(--vp-c-brand-2)"
     title="Navigating Your Tablet"
     body="This section covers the basics of using a tablet, including the keyboard, terminology, icons, and accessibility."
     link="./1-tablet-navigation/index"
@@ -48,7 +46,7 @@ This is an arts based initiative by the UBC A.R.T. & Justice Research Project gr
   />
   <VitepressCard
     icon="uim:apps"
-    iconColor="#30a46c"
+    iconColor="var(--vp-c-brand-2)"
     title="Apps and the Internet"
     body="This section covers connecting to the internet, navigating websites, browsers and search engines, and apps."
     link="./2-apps-and-internet/index"
@@ -56,7 +54,7 @@ This is an arts based initiative by the UBC A.R.T. & Justice Research Project gr
   />
   <VitepressCard
     icon="ph:files-duotone"
-    iconColor="#30a46c"
+    iconColor="var(--vp-c-brand-2)"
     title="Files"
     body="This section covers what files and folders are, and how to save or share files."
     link="./3-file-system/index"
@@ -64,7 +62,7 @@ This is an arts based initiative by the UBC A.R.T. & Justice Research Project gr
   />
   <VitepressCard
     icon="ic:twotone-security"
-    iconColor="#30a46c"
+    iconColor="var(--vp-c-brand-2)"
     title="Staying Safe"
     body="This section covers updates, passwords, encryption, viruses, and internet safety."
     link="./4-staying-safe/index"
@@ -72,7 +70,7 @@ This is an arts based initiative by the UBC A.R.T. & Justice Research Project gr
   />
   <VitepressCard
     icon="ph:chats-duotone"
-    iconColor="#30a46c"
+    iconColor="var(--vp-c-brand-2)"
     title="Communication"
     body="This section covers email, texting, direct messaging, video calls, and social media."
     link="./5-communication/index"

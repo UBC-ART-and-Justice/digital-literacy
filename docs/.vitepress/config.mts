@@ -7,7 +7,7 @@ export default defineConfig({
   base: process.env.VITEPRESS_BASE || '/',
   srcDir: './src',
   head: [
-    ['link', { rel: 'icon', href: '/stack-of-books.png' }]
+    ['link', { rel: 'icon', href: '/logo.png' }]
   ],
   cleanUrls: true,
   lastUpdated: false,
