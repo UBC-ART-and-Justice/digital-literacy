@@ -14,12 +14,12 @@ The focus of this project is to create an accessible and open-source digital lit
 
 **Download the Android app:**
 
-We are still in the process of releasing the Android app to the Play Store and F-Droid. Please check back soon for updates.
+We are still in the process of releasing the Android app to the Play Store and F-Droid.
 
-In the meantime, if you have experience with Android development, you can build the app yourself by following the instructions in the [repository wiki](https://github.com/UBC-ART-and-Justice/digital-literacy/wiki/Modifying-the-Android-App-with-CapacitorJS).
+In the meantime, you can download the `.apk` from the [releases page](https://github.com/UBC-ART-and-Justice/digital-literacy/releases). If you have experience with Android development, you can also build the app yourself by following the instructions in the [repository wiki](https://github.com/UBC-ART-and-Justice/digital-literacy/wiki/Modifying-the-Android-App-with-CapacitorJS).
 
 <p align="center">
-    <img width="360" height="304" src="./docs/src/public/digital-literacy-mobile.png">
+    <img width="540" height="304" src="./docs/src/public/digital-literacy-mobile.png">
 </p>
 
 
