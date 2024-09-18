@@ -47,8 +47,8 @@ export default defineConfig({
           { text: 'Websites, Web pages, Links', link: '/2-apps-and-internet/2.2-websites.md' },
           { text: 'Searching the Internet', link: '/2-apps-and-internet/2.3-searching.md' },
           { text: 'Web Browser Features', link: '/2-apps-and-internet/2.4-browser-features.md' },
-          { text: 'Using Apps', link: '/2-apps-and-internet/2.5-reputable-sources.md' },
-          { text: 'Reputable Sources', link: '/2-apps-and-internet/2.6-apps.md' }
+          { text: 'Reputable Sources', link: '/2-apps-and-internet/2.5-reputable-sources.md' },
+          { text: 'Apps', link: '/2-apps-and-internet/2.6-apps.md' }
         ]
       },
       {
