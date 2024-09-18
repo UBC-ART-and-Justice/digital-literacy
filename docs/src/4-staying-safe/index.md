@@ -30,7 +30,7 @@ Sometimes it's just cool to know how things work!
 <VitepressCardContainer :cols="2">
   <VitepressCard
     icon="ic:round-update"
-    iconColor="#30a46c"
+    iconColor="var(--vp-c-brand-2)"
     title="Updates"
     body="This section covers what updates are, why they are important, and how to install them."
     link="./4.1-updates"
@@ -38,7 +38,7 @@ Sometimes it's just cool to know how things work!
   />
   <VitepressCard
     icon="ic:twotone-lock"
-    iconColor="#30a46c"
+    iconColor="var(--vp-c-brand-2)"
     title="Passwords"
     body="This section covers what passwords are and what makes a 'good' password."
     link="./4.2-passwords"
@@ -46,7 +46,7 @@ Sometimes it's just cool to know how things work!
   />
   <VitepressCard
     icon="mdi:encryption-outline"
-    iconColor="#30a46c"
+    iconColor="var(--vp-c-brand-2)"
     title="Encryption"
     body="This section covers what encryption is, and how it can help keep your information safe."
     link="./4.3-encryption"
@@ -54,7 +54,7 @@ Sometimes it's just cool to know how things work!
   />
   <VitepressCard
     icon="ph:virus-duotone"
-    iconColor="#30a46c"
+    iconColor="var(--vp-c-brand-2)"
     title="Viruses"
     body="This section covers what viruses are, and how to protect your computer from them."
     link="./4.4-viruses"
@@ -62,7 +62,7 @@ Sometimes it's just cool to know how things work!
   />
   <VitepressCard
     icon="mdi:internet"
-    iconColor="#30a46c"
+    iconColor="var(--vp-c-brand-2)"
     title="Internet Safety"
     body="This section covers how to access the internet safely, and what to watch out for."
     link="./4.5-internet-safety"

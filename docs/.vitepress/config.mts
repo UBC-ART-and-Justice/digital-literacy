@@ -7,7 +7,8 @@ export default defineConfig({
   base: process.env.VITEPRESS_BASE || '/',
   srcDir: './src',
   head: [
-    ['link', { rel: 'icon', href: '/stack-of-books.png' }]
+    ['link', { rel: 'icon', href: 'https://ubc-art-and-justice.github.io/digital-literacy/logo.png' }],
+    ['meta', { property: 'og:image', content: 'https://ubc-art-and-justice.github.io/digital-literacy/social-share.png' }]
   ],
   cleanUrls: true,
   lastUpdated: false,
@@ -79,6 +80,12 @@ export default defineConfig({
           { text: 'Email', link: '/5-communication/5.1-email.md' },
           { text: 'Texting', link: '/5-communication/5.2-texting.md' },
           { text: 'Direct Messaging', link: '/5-communication/5.3-direct-message.md' },
+        ]
+      },
+      {
+        text: 'Test Pages',
+        items: [
+          { text: 'Test Page', link: '/test.md' },
         ]
       }
     ]
