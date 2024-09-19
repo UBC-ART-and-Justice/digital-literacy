@@ -80,6 +80,8 @@ export default defineConfig({
           { text: 'Email', link: '/5-communication/5.1-email.md' },
           { text: 'Texting', link: '/5-communication/5.2-texting.md' },
           { text: 'Direct Messaging', link: '/5-communication/5.3-direct-message.md' },
+          { text: 'Video Calls', link: '/5-communication/5.4-video-calls.md' },
+          { text: 'Social Media', link: '/5-communication/5.5-social-media.md' },
         ]
       },
       {
