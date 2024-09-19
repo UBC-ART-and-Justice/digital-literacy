@@ -78,3 +78,9 @@
 .medium-zoom-image--opened {
     z-index: 31;
 }
+
+/** Purpose is to highlight terms in terminology lists **/
+code {
+    background-color: #b5e9ed !important;
+    color: black !important;
+}
