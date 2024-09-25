@@ -21,8 +21,8 @@ export default {
     tags: {
       type: Array,
       required: false,
-      default: () => []
-    }
+      default: () => [],
+    },
   },
   setup(props) {
     const terms = ref([]);
@@ -32,7 +32,7 @@ export default {
         return termsArray.sort((a, b) => a.name.localeCompare(b.name));
       }
       return termsArray
-        .filter(term => term.tags.some(tag => props.tags.includes(tag)))
+        .filter((term) => term.tags.some((tag) => props.tags.includes(tag)))
         .sort((a, b) => a.name.localeCompare(b.name));
     });
 
@@ -42,10 +42,10 @@ export default {
         if (response.ok) {
           terms.value = await response.json();
         } else {
-          console.error('Failed to fetch terms.json');
+          console.error("Failed to fetch terms.json");
         }
       } catch (error) {
-        console.error('Error fetching terms.json:', error);
+        console.error("Error fetching terms.json:", error);
       }
     };
 
@@ -54,9 +54,9 @@ export default {
     watch(() => props.file, loadTerms);
 
     return {
-      filteredTerms
+      filteredTerms,
     };
-  }
+  },
 };
 </script>
 
