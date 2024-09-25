@@ -10,7 +10,9 @@
       />
       <span :class="['title', { 'no-icon': !icon }]">{{ title }}</span>
     </p>
-    <div v-html="renderedBody" class="card-body"></div>
+    <div class="card-body">
+      <slot />
+    </div>
     <a v-if="link" :href="link" class="card-link">
       {{ actualLinkText }}
       <Icon icon="mdi:arrow-right" class="arrow-icon" />
@@ -20,7 +22,6 @@
 
 <script>
 import { Icon } from "@iconify/vue";
-import MarkdownIt from "markdown-it";
 
 export default {
   name: "VitepressCard",
@@ -33,10 +34,6 @@ export default {
       default: "",
     },
     title: {
-      type: String,
-      required: true,
-    },
-    body: {
       type: String,
       required: true,
     },
@@ -54,10 +51,6 @@ export default {
     },
   },
   computed: {
-    renderedBody() {
-      const md = new MarkdownIt();
-      return md.render(this.body);
-    },
     actualLinkText() {
       return this.linkText || "Check it out";
     },

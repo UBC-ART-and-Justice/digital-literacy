@@ -32,48 +32,61 @@ This is an arts based initiative by the UBC A.R.T. & Justice Research Project gr
     icon="icon-park-twotone:new-computer"
     iconColor="var(--vp-c-brand-2)"
     title="Introduction"
-    body="This page contains one person's story and experience with encountering new technology after being in prison."
     link="./tech-terror-experience"
     linkText="Go to section"
-  />
+  >
+    This page contains one person's story and experience with encountering new technology after being in prison.
+  </VitepressCard>
   <VitepressCard
     icon="ant-design:tablet-twotone"
     iconColor="var(--vp-c-brand-2)"
     title="Navigating Your Tablet"
-    body="This section covers the basics of using a tablet, including the keyboard, terminology, icons, and accessibility."
     link="./1-tablet-navigation/index"
     linkText="Go to section"
-  />
+  >
+    This section covers the basics of using a tablet, including the keyboard, terminology, icons, and accessibility.
+  </VitepressCard>
   <VitepressCard
     icon="uim:apps"
     iconColor="var(--vp-c-brand-2)"
     title="Apps and the Internet"
-    body="This section covers connecting to the internet, navigating websites, browsers and search engines, and apps."
     link="./2-apps-and-internet/index"
     linkText="Go to section"
-  />
+  >
+    This section covers connecting to the internet, navigating websites, browsers and search engines, and apps.
+  </VitepressCard>
   <VitepressCard
     icon="ph:files-duotone"
     iconColor="var(--vp-c-brand-2)"
     title="Files"
-    body="This section covers what files and folders are, and how to save or share files."
     link="./3-file-system/index"
     linkText="Go to section"
-  />
+  >
+    This section covers what files and folders are, and how to save or share files.
+  </VitepressCard>
   <VitepressCard
     icon="ic:twotone-security"
     iconColor="var(--vp-c-brand-2)"
     title="Staying Safe"
-    body="This section covers updates, passwords, encryption, viruses, and internet safety."
     link="./4-staying-safe/index"
     linkText="Go to section"
-  />
+  >
+    This section covers updates, passwords, encryption, viruses, and internet safety.
+  </VitepressCard>
   <VitepressCard
     icon="ph:chats-duotone"
     iconColor="var(--vp-c-brand-2)"
     title="Communication"
-    body="This section covers email, texting, direct messaging, video calls, and social media."
     link="./5-communication/index"
     linkText="Go to section"
-  />
+  >
+    This section covers email, texting, direct messaging, video calls, and social media.
+  </VitepressCard>
 </VitepressCardContainer>
+
+<!-- Find and replace
+
+body="(.*)"\n(.*)\n(.*)\n(.*)
+
+$2\n$3\n>\n$1\n</VitepressCard>
+-->
