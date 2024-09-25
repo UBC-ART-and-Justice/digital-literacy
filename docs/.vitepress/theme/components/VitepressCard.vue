@@ -91,6 +91,7 @@ export default {
 
 .card-body {
   margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .card-link {
