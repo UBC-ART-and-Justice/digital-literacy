@@ -7,6 +7,9 @@
     --vp-c-custom-2: #299097;
     --vp-c-custom-3: #309EA4;
     --vp-c-custom-soft: rgba(48, 173, 185, 0.1);
+
+    --glossary-term-bg: #b5e9ed;
+    --glossary-term-color: #08282b;
 }
 
 .dark {
@@ -14,6 +17,9 @@
     --vp-c-custom-2: #309EA4;
     --vp-c-custom-3: #298184;
     --vp-c-custom-soft: rgba(31, 180, 185, 0.1);
+
+    --glossary-term-bg: #272a2f;
+    --glossary-term-color: #36cad6;
 }
 
 /* 
@@ -79,8 +85,11 @@
     z-index: 31;
 }
 
-/** Purpose is to highlight terms in terminology lists **/
-code {
-    background-color: #b5e9ed !important;
-    color: black !important;
+/* 
+ * Glossary Term Highlighting
+ * ========================================================================== */
+
+code.glossary-term {
+    background-color: var(--glossary-term-bg) !important;
+    color: var(--glossary-term-color) !important;
 }
