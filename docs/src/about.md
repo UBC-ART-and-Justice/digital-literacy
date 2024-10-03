@@ -4,6 +4,29 @@ hero:
   text: "About Us"
 ---
 
+<script setup>
+import {
+  VPTeamPage,
+  VPTeamPageTitle,
+  VPTeamMembers,
+  VPTeamPageSection
+} from 'vitepress/theme'
+
+const teamMembers = [
+  {
+    avatar: 'https://www.github.com/yyx990803.png',
+    name: 'Example User',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/example' },
+      { icon: 'mastodon', link: 'https://mstdn.ca' }
+    ]
+  }
+]
+</script>
+
+
+
 ### Our Origin Story
 
 **A.R.T. & Justice** (**A**ction, **R**eciprocity, **T**ransformation & **J**ustice) is a collaborative Participatory Action Research project committed to supporting the holistic health, well-being, and dignity of currently and formerly incarcerated people in BC through Indigenous-guided and trauma-informed art and creative writing initiatives. *We believe that storytelling can build community, reduce stigma, and support healing.* 
@@ -16,5 +39,20 @@ Our team recognizes that historic and ongoing colonialism are foundational to th
 
 We believe that art and writing are powerful tools of connection and social change. Individuals who receive a kit are invited to share their art and writing with us and with other participating storytellers and artists. They are also invited to take part in research program to help us learn how to strengthen and sustain the program over time. This research is Participatory (meaning we centre the voices and wisdom of experts, people who are or have been incarcerated), Action (meaning we believe research should *do something positive*) Research, with people who have survived prison working with us as Leaders, Advisors and Colleagues.   
 
-<!-- ### Meet the Team
- -->
+
+
+<VPTeamPage>
+  <VPTeamPageTitle>
+    <template #title>
+    </template>
+    <template #lead>
+      This project was made possible by a large team, some of whom are featured below.
+    </template>
+  </VPTeamPageTitle>
+  <VPTeamPageSection>
+  <template #title>Partners</template>
+  <template #members>
+      <VPTeamMembers size="medium" :members="teamMembers" />
+    </template>
+  </VPTeamPageSection>
+</VPTeamPage>
