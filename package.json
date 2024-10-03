@@ -18,5 +18,10 @@
     "@capacitor/core": "^6.1.2",
     "markdown-it": "^14.1.0",
     "medium-zoom": "^1.1.0"
+  },
+  "overrides": {
+    "semver": "^7.5.3",
+    "simple-update-notifier": "^2.0.0",
+    "nodemon": "^3.1.7"
   }
 }
