@@ -13,6 +13,7 @@ import CardContainer from './components/CardContainer.vue';
 import ImageText from './components/ImageText.vue';
 import VitepressCard from './components/VitepressCard.vue';
 import VitepressCardContainer from './components/VitepressCardContainer.vue';
+import TermList from './components/TermList.vue';
 
 export default {
   extends: DefaultTheme,
@@ -28,6 +29,7 @@ export default {
     app.component('ImageText', ImageText);
     app.component('VitepressCard', VitepressCard);
     app.component('VitepressCardContainer', VitepressCardContainer);
+    app.component('TermList', TermList);
   },
   setup() {
     const route = useRoute();

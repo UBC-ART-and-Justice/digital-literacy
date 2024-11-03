@@ -1,7 +1,9 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid';
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid(
+  defineConfig({
   title: "Digital Literacy",
   description: "Digital Literacy Content",
   base: process.env.VITEPRESS_BASE || '/',
@@ -91,9 +93,15 @@ export default defineConfig({
         ]
       }
     ]
-  }
-})
-
+  },
+    mermaid: {
+      theme: 'default',
+    },
+    mermaidPlugin: {
+      class: "mermaid my-class",
+    }
+  })
+);
 
 // nav:
 //   - Home: index.md

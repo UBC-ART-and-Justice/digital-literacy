@@ -32,40 +32,45 @@ Sometimes it's just cool to know how things work!
     icon="ic:round-update"
     iconColor="var(--vp-c-brand-2)"
     title="Updates"
-    body="This section covers what updates are, why they are important, and how to install them."
     link="./4.1-updates"
     linkText="Go to section"
-  />
+  >
+  This section covers what updates are, why they are important, and how to install them.
+  </VitepressCard>
   <VitepressCard
     icon="ic:twotone-lock"
     iconColor="var(--vp-c-brand-2)"
     title="Passwords"
-    body="This section covers what passwords are and what makes a 'good' password."
     link="./4.2-passwords"
     linkText="Go to section"
-  />
+  >
+  This section covers what passwords are and what makes a 'good' password.
+  </VitepressCard>
   <VitepressCard
     icon="mdi:encryption-outline"
     iconColor="var(--vp-c-brand-2)"
     title="Encryption"
-    body="This section covers what encryption is, and how it can help keep your information safe."
     link="./4.3-encryption"
     linkText="Go to section"
-  />
+  >
+  This section covers what encryption is, and how it can help keep your information safe.
+  </VitepressCard>
   <VitepressCard
     icon="ph:virus-duotone"
     iconColor="var(--vp-c-brand-2)"
     title="Viruses"
-    body="This section covers what viruses are, and how to protect your computer from them."
     link="./4.4-viruses"
     linkText="Go to section"
-  />
+  >
+  This section covers what viruses are, and how to protect your computer from them.
+  </VitepressCard>
   <VitepressCard
     icon="mdi:internet"
     iconColor="var(--vp-c-brand-2)"
     title="Internet Safety"
-    body="This section covers how to access the internet safely, and what to watch out for."
     link="./4.5-internet-safety"
     linkText="Go to section"
-  />
+  >
+  This section covers how to access the internet safely, and what to watch out for.
+  </VitepressCard>
 </VitepressCardContainer>
