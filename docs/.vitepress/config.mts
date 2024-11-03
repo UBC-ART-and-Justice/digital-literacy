@@ -87,6 +87,12 @@ export default withMermaid(
         ]
       },
       {
+        'text': 'Conclusion',
+        items: [
+          { text: 'Image Sources', link: '/6-conclusion/6.1-sources.md' },
+        ]
+      },
+      {
         text: 'Test Pages',
         items: [
           { text: 'Test Page', link: '/test.md' },
