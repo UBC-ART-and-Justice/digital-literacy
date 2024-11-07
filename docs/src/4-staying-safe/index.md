@@ -1,3 +1,6 @@
+![Staying Safe Banner](/banners/HowToStaySafe.png){ width="100%" }
+
+
 # Unit 4: Staying Safe
 
 You can do so much while using computers and the internet. Tasks that were previously done with paper, such as banking, shopping or business, can now be done digitally! However, just as before, you need to be careful when doing important things in order to be safe. It is possible for others to take your money or personal information if you are not careful.

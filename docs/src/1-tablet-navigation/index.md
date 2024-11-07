@@ -1,3 +1,5 @@
+![Navigating Your Tablet Banner](/banners/NavigatingYourTablet.png){ width="100%" }
+
 # Unit 1: Navigating Your Tablet
 
 ## Topics
