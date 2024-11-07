@@ -16,3 +16,62 @@ We put this section near the beginning for two reasons.
 However, the information in this section may still be useful to you! You can use it in the future if your access to technology increases. It can also help you understand things you hear people talk about, like “googling” things, or using social media apps.
 
 ---
+
+## Topics
+
+<VitepressCardContainer :cols="2">
+  <VitepressCard
+    icon="mdi:internet"
+    iconColor="var(--vp-c-brand-2)"
+    title="The Internet"
+    link="./2.1-the-internet"
+    linkText="Go to section"
+  >
+  This section explains what the internet is and how to connect to it.
+  </VitepressCard>
+  <VitepressCard
+    icon="mdi:link-box-variant"
+    iconColor="var(--vp-c-brand-2)"
+    title="Websites"
+    link="./2.2-websites"
+    linkText="Go to section"
+  >
+  This section discusses websites, web pages, web addresses, and links.
+  </VitepressCard>
+  <VitepressCard
+    icon="mdi:search"
+    iconColor="var(--vp-c-brand-2)"
+    title="Searching"
+    link="./2.3-searching"
+    linkText="Go to section"
+  >
+  This section explains what it means to search the internet, and how to make a search.
+  </VitepressCard>
+  <VitepressCard
+    icon="mdi:star"
+    iconColor="var(--vp-c-brand-2)"
+    title="Browser Features"
+    link="./2.4-browser-features"
+    linkText="Go to section"
+  >
+  This section summarizes some common features of web browsers that assist with navigating the internet.
+  </VitepressCard>
+  <VitepressCard
+    icon="mdi:question-mark-rhombus"
+    iconColor="var(--vp-c-brand-2)"
+    title="Reputable Sources"
+    link="./2.5-reputable-sources"
+    linkText="Go to section"
+  >
+  This section covers some ways of determining whether a source is reliable.
+  </VitepressCard>
+  <VitepressCard
+    icon="mdi:apps"
+    iconColor="var(--vp-c-brand-2)"
+    title="Apps"
+    link="./2.6-apps"
+    linkText="Go to section"
+  >
+  This section covers what an app is, and what it means to open, use, and close an app.
+  </VitepressCard>
+</VitepressCardContainer>

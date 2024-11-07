@@ -8,16 +8,16 @@ This unit of the course is tablet-specific because the primary use of this conte
 
 <VitepressCardContainer :cols="2">
     <VitepressCard
-        icon="ph:keyboard-duotone"
+        icon="mdi:about-circle"
         iconColor="var(--vp-c-brand-2)"
-        title="1.1 Basics"
-        link="./1.1-the-basics"
+        title="1.1 The Basics"
+        link="./1.1-basics"
         linkText="Go to section"
     >
         This section covers the very basics of navigating your tablet. 
     </VitepressCard>
     <VitepressCard
-        icon="ph:info-duotone"
+        icon="mdi:tablet"
         iconColor="var(--vp-c-brand-2)"
         title="1.2 Features and Settings"
         link="./1.2-tablet-features"
@@ -26,7 +26,7 @@ This unit of the course is tablet-specific because the primary use of this conte
         This section covers some tablet features such as the keyboard, icons, and accessibility settings.
     </VitepressCard>
     <VitepressCard
-        icon="mingcute:emoji-line"
+        icon="mdi:do-not-disturb-alt"
         iconColor="var(--vp-c-brand-2)"
         title="1.3 Restrictions"
         link="./1.3-restrictions"
@@ -35,7 +35,7 @@ This unit of the course is tablet-specific because the primary use of this conte
         Some features of the tablet are disabled and this section explains them. 
     </VitepressCard>
     <VitepressCard
-        icon="ic:round-accessibility"
+        icon="mdi:navigation-variant-outline"
         iconColor="var(--vp-c-brand-2)"
         title="1.4 Content Navigation"
         link="./1.4-content-navigation"
