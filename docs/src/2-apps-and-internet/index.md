@@ -1,6 +1,6 @@
 # Unit 2: Apps, Websites, and the Internet
 
-Almot anything you do on a computer, phone, or other device will involve using an app, the internet, or oftentimes both. You may not know it, but you are already using an app right now to read this!
+Almost anything you do on a computer, phone, or other device will involve using an app, the internet, or oftentimes both. You may not know it, but you are already using an app right now to read this!
 
 We put this section near the beginning for two reasons.
 

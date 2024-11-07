@@ -3,6 +3,7 @@ layout: home
 ---
 
 <VPTeamPage>
+<img src="/banners/OurOriginStory.png" width="90%" style="margin: 0 auto"/>
   <VPTeamPageTitle>
     <template #title>
       About Us
@@ -27,7 +28,9 @@ We believe that art and writing are powerful tools of connection and social chan
 
 
 
+
 <VPTeamPage>
+  <img src="/banners/MeetTheTeam.png" width="90%" style="margin: 0 auto"/>
   <VPTeamPageTitle>
     <template #title>
       Our Team
@@ -63,6 +66,7 @@ Sam is a freelance artist, art instructor at the City of Burnaby, Project Coordi
 
 
 <VPTeamPage>
+<img src="/banners/WhyTablets.png" width="90%" style="margin: 0 auto"/>
   <VPTeamPageTitle>
     <template #title>
       Why Tablets?
@@ -89,9 +93,10 @@ Sam is a freelance artist, art instructor at the City of Burnaby, Project Coordi
 </VPTeamPage> -->
 
 <VPTeamPage>
+  <img src="/banners/KeepInTouch.png" width="90%" style="margin: 0 auto"/>
   <VPTeamPageTitle>
     <template #title>
-      Stay in Touch
+      Keep in Touch
     </template>
     <template #lead>
       <p>Call us at 1-888-379-0118, or send mail to Kelsey Timler or Helen Brown at the following mailing address:</p>
@@ -175,20 +180,6 @@ const teamMembers = [
     avatar: 'https://avatars.githubusercontent.com/u/98340537',
     name: 'logank8',
     title: 'Volunteer & Developer',
-  },
-  {
-    avatar: 'https://avatars.githubusercontent.com/u/57936',
-    name: 'Sample Name',
-    title: 'Sample Title',
-    org: 'Sample Organization',
-    orgLink: 'https://example.com',
-    desc: 'Sample description. Lorem ipsum dolor sit amet.',
-    links: [
-      { icon: 'github', link: 'https://github.com/example' },
-      { icon: 'mastodon', link: 'https://mstdn.ca' }
-    ],
-    sponsor: 'https://example.com',
-    actionText: 'Sponsor this team member'
   },
 ]
 </script>

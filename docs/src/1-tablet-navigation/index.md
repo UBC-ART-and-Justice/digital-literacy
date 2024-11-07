@@ -1,3 +1,5 @@
+![Navigating Your Tablet Banner](/banners/NavigatingYourTablet.png){ width="100%" }
+
 # Unit 1: Navigating Your Tablet
 
 This unit of the course is tablet-specific because the primary use of this content will be on tablets. You may be reading this on one of these tablets right now! If you are not reading this on a tablet, then this section may not be as relevant to you, so feel free to skip ahead.
