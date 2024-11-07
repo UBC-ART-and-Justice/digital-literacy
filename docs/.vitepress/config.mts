@@ -37,7 +37,6 @@ export default withMermaid(
         items: [
           { text: 'Unit 1 Topics', link: '/1-tablet-navigation/index.md' },
           { text: 'The Keyboard', link: '/1-tablet-navigation/1.1-the-keyboard.md' },
-          { text: 'Terminology', link: '/1-tablet-navigation/1.2-terminology.md' },
           { text: 'Icons', link: '/1-tablet-navigation/1.3-icons.md' },
           { text: 'Accessibility', link: '/1-tablet-navigation/1.4-accessibility.md' }
         ]
@@ -89,7 +88,8 @@ export default withMermaid(
       {
         'text': 'Conclusion',
         items: [
-          { text: 'Image Sources', link: '/6-conclusion/6.1-sources.md' },
+          { text: 'Extra Terminology', link: '/6-conclusion/6.1-terminology.md' },
+          { text: 'Image Sources', link: '/6-conclusion/6.2-sources.md' },
         ]
       },
       {
