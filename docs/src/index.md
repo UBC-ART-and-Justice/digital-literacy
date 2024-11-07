@@ -47,7 +47,7 @@ This is an arts based initiative by the UBC A.R.T. & Justice Research Project gr
     This section covers the basics of using a tablet, including the keyboard, terminology, icons, and accessibility.
   </VitepressCard>
   <VitepressCard
-    icon="uim:apps"
+    mdiIcon="apps"
     iconColor="var(--vp-c-brand-2)"
     title="Apps and the Internet"
     link="./2-apps-and-internet/index"
@@ -56,7 +56,7 @@ This is an arts based initiative by the UBC A.R.T. & Justice Research Project gr
     This section covers connecting to the internet, navigating websites, browsers and search engines, and apps.
   </VitepressCard>
   <VitepressCard
-    icon="ph:files-duotone"
+    mdiIcon="folder"
     iconColor="var(--vp-c-brand-2)"
     title="Files"
     link="./3-file-system/index"
@@ -65,7 +65,7 @@ This is an arts based initiative by the UBC A.R.T. & Justice Research Project gr
     This section covers what files and folders are, and how to save or share files.
   </VitepressCard>
   <VitepressCard
-    icon="ic:twotone-security"
+    mdiIcon="shield-alert"
     iconColor="var(--vp-c-brand-2)"
     title="Staying Safe"
     link="./4-staying-safe/index"
@@ -74,7 +74,7 @@ This is an arts based initiative by the UBC A.R.T. & Justice Research Project gr
     This section covers updates, passwords, encryption, viruses, and internet safety.
   </VitepressCard>
   <VitepressCard
-    icon="ph:chats-duotone"
+    mdiIcon="forum-outline"
     iconColor="var(--vp-c-brand-2)"
     title="Communication"
     link="./5-communication/index"
