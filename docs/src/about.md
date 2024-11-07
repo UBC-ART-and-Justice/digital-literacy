@@ -162,11 +162,6 @@ const teamMembers = [
     // actionText: 'Learn more'
   },
   {
-    avatar: 'https://avatars.githubusercontent.com/u/57936',
-    name: 'Michelle Paquette',
-    title: 'Research Assistant',
-  },
-  {
     avatar: 'https://avatars.githubusercontent.com/u/26402139',
     name: 'cynber',
     title: 'Volunteer & Developer',

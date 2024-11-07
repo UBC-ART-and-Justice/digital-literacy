@@ -1,4 +1,6 @@
-![File Saving & Sharing Banner](/banners/FileSavingAndSharing.png){ width="100%" }
+![File Saving & Sharing Banner](/banners/FileSavingAndSharing.png){ width="100%" style="border-radius: 12px;" }
+
+##
 
 # Unit 3: Files
 

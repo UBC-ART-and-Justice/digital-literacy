@@ -25,6 +25,8 @@ hero:
 # Welcome to the Digital Literacy Project
 This is an arts based initiative by the UBC A.R.T. & Justice Research Project group, to support the well-being of people in prison. These lessons on digital literacy are designed to be accessible to anyone, regardless of their prior experience.
 
+We have organized the content to be used on our project's tablets. The sections are designed to be read in order, but you can skip ahead if you're already familiar with any of the topics! 
+
 ## Content
 
 <VitepressCardContainer :cols="2">
@@ -35,25 +37,25 @@ This is an arts based initiative by the UBC A.R.T. & Justice Research Project gr
     link="./tech-terror-experience"
     linkText="Go to section"
   >
-    This page contains one person's story and experience with encountering new technology after being in prison.
+    One person's journey to adjust to a technology-driven world after 20 years in prison.
   </VitepressCard>
   <VitepressCard
     mdiIcon="cellphone"
     iconColor="var(--vp-c-brand-2)"
-    title="Navigating Your Tablet"
+    title="Using a Tablet"
     link="./1-tablet-navigation/index"
     linkText="Go to section"
   >
-    This section covers the basics of using a tablet, including the keyboard, terminology, icons, and accessibility.
+    Learn the basics of using a tablet, from keyboard skills to icons and accessibility settings.
   </VitepressCard>
   <VitepressCard
     mdiIcon="apps"
     iconColor="var(--vp-c-brand-2)"
-    title="Apps and the Internet"
+    title="Internet and Apps"
     link="./2-apps-and-internet/index"
     linkText="Go to section"
   >
-    This section covers connecting to the internet, navigating websites, browsers and search engines, and apps.
+    Learn about connecting to the internet and using browsers, search engines, and apps.
   </VitepressCard>
   <VitepressCard
     mdiIcon="folder"
@@ -62,7 +64,7 @@ This is an arts based initiative by the UBC A.R.T. & Justice Research Project gr
     link="./3-file-system/index"
     linkText="Go to section"
   >
-    This section covers what files and folders are, and how to save or share files.
+    Learn what files and folders are, and how you can use them to save and share information.
   </VitepressCard>
   <VitepressCard
     mdiIcon="shield-alert"
@@ -71,7 +73,7 @@ This is an arts based initiative by the UBC A.R.T. & Justice Research Project gr
     link="./4-staying-safe/index"
     linkText="Go to section"
   >
-    This section covers updates, passwords, encryption, viruses, and internet safety.
+    Stay safe when using the internet, and learn about updates, passwords, encryption, and viruses.
   </VitepressCard>
   <VitepressCard
     mdiIcon="forum-outline"
@@ -80,7 +82,7 @@ This is an arts based initiative by the UBC A.R.T. & Justice Research Project gr
     link="./5-communication/index"
     linkText="Go to section"
   >
-    This section covers email, texting, direct messaging, video calls, and social media.
+    Connect with others through email, texting, messaging, video calls, and social media.
   </VitepressCard>
 </VitepressCardContainer>
 

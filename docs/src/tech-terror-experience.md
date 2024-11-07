@@ -1,6 +1,8 @@
 # The Technology Terror Experience
 
-_Here is one person's experience with technology after being in prison:_
+One person's journey to adjust to a technology-driven world after 20 years in prison.
+
+::: tip <i/>
 
 The crazy world was different. The difference was looming in ways that made for a big adjustment into something that I had no experience with; technology.
 
@@ -27,3 +29,5 @@ Do you know what else helps? Many people out here know less about technology tha
 The Tablet you have is my passion in this life right now. I can help! I’ve been there and am often still there with tech troubles, but I have enough lived experience to know somewhat of what we need to be successful on parole with technology. This Tablet will help with all of that. If I can do this stuff, you can too. Seriously.
 
 Enjoy your art, technology and information!
+
+:::

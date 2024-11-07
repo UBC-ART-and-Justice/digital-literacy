@@ -1,4 +1,6 @@
-![Navigating Your Tablet Banner](/banners/NavigatingYourTablet.png){ width="100%" }
+![Navigating Your Tablet Banner](/banners/NavigatingYourTablet.png){ width="100%" style="border-radius: 12px;" }
+
+##
 
 # Unit 1: Navigating Your Tablet
 

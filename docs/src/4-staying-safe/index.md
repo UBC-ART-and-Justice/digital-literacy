@@ -1,4 +1,6 @@
-![Staying Safe Banner](/banners/HowToStaySafe.png){ width="100%" }
+![Staying Safe Banner](/banners/HowToStaySafe.png){ width="100%" style="border-radius: 12px;" }
+
+##
 
 
 # Unit 4: Staying Safe

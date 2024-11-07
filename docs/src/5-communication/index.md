@@ -1,4 +1,6 @@
-![Communication Banner](/banners/Communication.png){ width="100%" }
+![Communication Banner](/banners/Communication.png){ width="100%" style="border-radius: 12px;" }
+
+##
 
 # Unit 5: Communication
 
