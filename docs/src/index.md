@@ -29,7 +29,7 @@ This is an arts based initiative by the UBC A.R.T. & Justice Research Project gr
 
 <VitepressCardContainer :cols="2">
   <VitepressCard
-    icon="icon-park-twotone:new-computer"
+    mdiIcon="monitor-cellphone"
     iconColor="var(--vp-c-brand-2)"
     title="Introduction"
     link="./tech-terror-experience"
@@ -38,7 +38,7 @@ This is an arts based initiative by the UBC A.R.T. & Justice Research Project gr
     This page contains one person's story and experience with encountering new technology after being in prison.
   </VitepressCard>
   <VitepressCard
-    icon="ant-design:tablet-twotone"
+    mdiIcon="cellphone"
     iconColor="var(--vp-c-brand-2)"
     title="Navigating Your Tablet"
     link="./1-tablet-navigation/index"

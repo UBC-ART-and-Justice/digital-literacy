@@ -2,13 +2,13 @@
   <div class="card">
     <p class="text-with-icon">
       <Icon
-        :icon="icon"
+        v-if="resolvedIcon"
+        :icon="resolvedIcon"
         width="1.2em"
         height="1.2em"
-        v-if="icon"
         :style="{ color: iconColor }"
       />
-      <span :class="['title', { 'no-icon': !icon }]">{{ title }}</span>
+      <span :class="['title', { 'no-icon': !resolvedIcon }]">{{ title }}</span>
     </p>
     <div class="card-body">
       <slot />
@@ -22,6 +22,7 @@
 
 <script>
 import { Icon } from "@iconify/vue";
+import { computed } from 'vue';
 
 export default {
   name: "VitepressCard",
@@ -30,6 +31,10 @@ export default {
   },
   props: {
     icon: {
+      type: String,
+      default: "",
+    },
+    mdiIcon: {
       type: String,
       default: "",
     },
@@ -50,10 +55,22 @@ export default {
       default: "Check it out",
     },
   },
-  computed: {
-    actualLinkText() {
-      return this.linkText || "Check it out";
-    },
+  setup(props) {
+    const resolvedIcon = computed(() => {
+      if (props.mdiIcon) {
+        return `mdi:${props.mdiIcon}`;
+      }
+      return props.icon || "";
+    });
+
+    const actualLinkText = computed(() => {
+      return props.linkText || "Check it out";
+    });
+
+    return {
+      resolvedIcon,
+      actualLinkText,
+    };
   },
 };
 </script>
