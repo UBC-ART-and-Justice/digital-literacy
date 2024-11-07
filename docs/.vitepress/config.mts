@@ -29,16 +29,17 @@ export default withMermaid(
       {
         text: 'Introduction',
         items: [
-          { text: 'Tech Technology Terror Experience', link: '/tech-terror-experience.md' },
+          { text: 'Technology Terror Experience', link: '/tech-terror-experience.md' },
         ]
       },
       {
         'text': 'Navigating Your Tablet',
         items: [
           { text: 'Unit 1 Topics', link: '/1-tablet-navigation/index.md' },
-          { text: 'The Keyboard', link: '/1-tablet-navigation/1.1-the-keyboard.md' },
-          { text: 'Icons', link: '/1-tablet-navigation/1.3-icons.md' },
-          { text: 'Accessibility', link: '/1-tablet-navigation/1.4-accessibility.md' }
+          { text: 'The Basics', link: '/1-tablet-navigation/1.1-basics.md' },
+          { text: 'Features and Settings', link: '/1-tablet-navigation/1.2-tablet-features.md' },
+          { text: 'Restrictions', link: '/1-tablet-navigation/1.3-restrictions.md' },
+          { text: 'Content Navigation', link: '/1-tablet-navigation/1.4-content-navigation.md' }
         ]
       },
       {
@@ -88,16 +89,16 @@ export default withMermaid(
       {
         'text': 'Conclusion',
         items: [
-          { text: 'Extra Terminology', link: '/6-conclusion/6.1-terminology.md' },
+          { text: 'Bonus Terminology', link: '/6-conclusion/6.1-terminology.md' },
           { text: 'Image Sources', link: '/6-conclusion/6.2-sources.md' },
         ]
       },
-      {
-        text: 'Test Pages',
-        items: [
-          { text: 'Test Page', link: '/test.md' },
-        ]
-      }
+      // {
+      //   text: 'Test Pages',
+      //   items: [
+      //     { text: 'Test Page', link: '/test.md' },
+      //   ]
+      // }
     ]
   },
     mermaid: {

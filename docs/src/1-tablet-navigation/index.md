@@ -1,43 +1,45 @@
 # Unit 1: Navigating Your Tablet
 
+This unit of the course is tablet-specific because the primary use of this content will be on tablets. You may be reading this on one of these tablets right now! If you are not reading this on a tablet, then this section may not be as relevant to you, so feel free to skip ahead.
+
 ## Topics
 
 <VitepressCardContainer :cols="2">
     <VitepressCard
         icon="ph:keyboard-duotone"
         iconColor="var(--vp-c-brand-2)"
-        title="1.1 The Keyboard"
-        link="./1.1-the-keyboard"
+        title="1.1 Basics"
+        link="./1.1-the-basics"
         linkText="Go to section"
     >
-        Keyboards allow you to type text into your tablet. This section covers the basics of using a keyboard.
+        This section covers the very basics of navigating your tablet. 
     </VitepressCard>
     <VitepressCard
         icon="ph:info-duotone"
         iconColor="var(--vp-c-brand-2)"
-        title="1.2 Terminology"
-        link="./1.2-terminology"
+        title="1.2 Features and Settings"
+        link="./1.2-tablet-features"
         linkText="Go to section"
     >
-        This section covers the basic terms and concepts that may come up later in the content.
+        This section covers some tablet features such as the keyboard, icons, and accessibility settings.
     </VitepressCard>
     <VitepressCard
         icon="mingcute:emoji-line"
         iconColor="var(--vp-c-brand-2)"
-        title="1.3 Icons"
-        link="./1.3-icons"
+        title="1.3 Restrictions"
+        link="./1.3-restrictions"
         linkText="Go to section"
     >
-        The tablet will use small pictures and symbols to represent different things. This section covers a few of them.
+        Some features of the tablet are disabled and this section explains them. 
     </VitepressCard>
     <VitepressCard
         icon="ic:round-accessibility"
         iconColor="var(--vp-c-brand-2)"
-        title="1.4 Accessibility"
-        link="./1.4-accessibility"
+        title="1.4 Content Navigation"
+        link="./1.4-content-navigation"
         linkText="Go to section"
     >
-        This section covers steps you can take to make your tablet easier to use, such as making the text larger.
+        This section covers how to navigate the content itself.
     </VitepressCard>
 
 </VitepressCardContainer>
