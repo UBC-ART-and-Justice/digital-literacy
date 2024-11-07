@@ -3,15 +3,16 @@
     <div class="term-list">
       <div v-for="term in filteredTerms" :key="term.name" class="term-card">
         <h3 class="term-title">{{ term.name }}</h3>
-        <p class="term-body">{{ term.body }}</p>
+        <div class="term-body" v-html="renderMarkdown(term.body)"></div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import { ref, onMounted, computed, watch } from 'vue';
-
+import { ref, onMounted, computed, watch } from "vue";
+import yaml from "js-yaml";
+import { marked } from "marked";
 export default {
   props: {
     file: {
@@ -26,6 +27,11 @@ export default {
   },
   setup(props) {
     const terms = ref([]);
+
+    const renderMarkdown = (markdown) => {
+      return marked(markdown);
+    };
+
     const filteredTerms = computed(() => {
       const termsArray = terms.value;
       if (props.tags.length === 0) {
@@ -40,12 +46,13 @@ export default {
       try {
         const response = await fetch(props.file);
         if (response.ok) {
-          terms.value = await response.json();
+          const text = await response.text();
+          terms.value = yaml.load(text);
         } else {
-          console.error("Failed to fetch terms.json");
+          console.error("Failed to fetch terms.yaml");
         }
       } catch (error) {
-        console.error("Error fetching terms.json:", error);
+        console.error("Error fetching terms.yaml:", error);
       }
     };
 
@@ -55,6 +62,7 @@ export default {
 
     return {
       filteredTerms,
+      renderMarkdown,
     };
   },
 };
