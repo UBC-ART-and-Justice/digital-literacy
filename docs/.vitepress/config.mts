@@ -89,6 +89,7 @@ export default withMermaid(
       {
         'text': 'Conclusion',
         items: [
+          { text: 'Conclusion', link: '/6-conclusion/index.md' },
           { text: 'Bonus Terminology', link: '/6-conclusion/6.1-terminology.md' },
           { text: 'Image Sources', link: '/6-conclusion/6.2-sources.md' },
         ]
