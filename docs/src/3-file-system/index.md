@@ -8,7 +8,7 @@ In this unit, you will learn about files. This includes organizing, saving, nami
 
 <VitepressCardContainer :cols="2">
   <VitepressCard
-    icon="mdi:file"
+    mdiIcon="file"
     iconColor="var(--vp-c-brand-2)"
     title="Files"
     link="./3.1-files"
@@ -17,7 +17,7 @@ In this unit, you will learn about files. This includes organizing, saving, nami
   This section explains what files are, goes over some common types of files, and introduces the concept of file size.
   </VitepressCard>
   <VitepressCard
-    icon="mdi:folder"
+    mdiIcon="folder"
     iconColor="var(--vp-c-brand-2)"
     title="Folders"
     link="./3.2-folders"
@@ -26,7 +26,7 @@ In this unit, you will learn about files. This includes organizing, saving, nami
   This section explains what folders are and how they are used to organize files.
   </VitepressCard>
   <VitepressCard
-    icon="mdi:content-save-check"
+    mdiIcon="content-save-check"
     iconColor="var(--vp-c-brand-2)"
     title="Saving Files"
     link="./3.3-saving-files"
@@ -35,7 +35,7 @@ In this unit, you will learn about files. This includes organizing, saving, nami
   This section covers the process of saving files.
   </VitepressCard>
   <VitepressCard
-    icon="mdi:folder-shared"
+    mdiIcon="folder-account"
     iconColor="var(--vp-c-brand-2)"
     title="Sharing Files"
     link="./3.4-sharing-files"

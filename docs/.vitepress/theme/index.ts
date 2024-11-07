@@ -2,6 +2,7 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+import '@mdi/font/css/materialdesignicons.css'
 import './style.css'
 import './custom.css'
 import { Icon } from '@iconify/vue';              // Iconify
