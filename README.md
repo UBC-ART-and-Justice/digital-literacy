@@ -1,4 +1,4 @@
-<p align="center"><img width="128" height="128" src="./docs/src/public/logo.png"></p>
+<p align="center"><img width="128" height="128" src="./docs/src/public/logo-square-rounded.png"></p>
 
 <h1 align="center">Digital Literacy</h1>
 

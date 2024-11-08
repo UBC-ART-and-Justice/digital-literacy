@@ -10,7 +10,7 @@ export default withMermaid(
   srcDir: './src',
   head: [
     ['link', { rel: 'stylesheet', href: '@mdi/font/css/materialdesignicons.css' }],
-    ['link', { rel: 'icon', href: 'https://ubc-art-and-justice.github.io/digital-literacy/logo.png' }],
+    ['link', { rel: 'icon', href: 'https://ubc-art-and-justice.github.io/digital-literacy/logo-square-rounded.png' }],
     ['meta', { property: 'og:image', content: 'https://ubc-art-and-justice.github.io/digital-literacy/social-share.png' }]
   ],
   cleanUrls: true,
