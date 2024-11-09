@@ -92,7 +92,6 @@ We are using tablets as a way to teach digital literacy to those inside, in orde
 </div>
 
 
-
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>
@@ -154,28 +153,28 @@ import {
 
 const teamMembers = [
   {
-    avatar: './team/helen-brown.png',
+    avatar: '/team/helen-brown.png',
     name: 'Helen Brown',
     title: 'Associate Professor & Academic Lead',
     // sponsor: './about#helen-brown',
     // actionText: 'Learn more'
   },
   {
-    avatar: './team/kelsey-timler.png',
+    avatar: '/team/kelsey-timler.png',
     name: 'Kelsey Timler',
     title: 'Research Manager',
     // sponsor: './about#kelsey-timler',
     // actionText: 'Learn more'
   },
   {
-    avatar: './team/angelee-porter.png',
+    avatar: '/team/angelee-porter.png',
     name: 'Angelee Porter',
     title: 'Research Assistant',
     // sponsor: './about#angelee-porter',
     // actionText: 'Learn more'
   },
   {
-    avatar: './team/sam-young.png',
+    avatar: '/team/sam-young.png',
     name: 'Sam Young',
     title: 'Research Assistant',
     // sponsor: './about#sam-young',
