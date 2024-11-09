@@ -14,6 +14,8 @@
 </template>
 
 <script>
+import mediumZoom from 'medium-zoom';
+
 export default {
   props: {
     title: {
@@ -27,9 +29,26 @@ export default {
     images: {
       type: Array,
       required: true
-    }
-  }
-}
+    },
+  },
+  mounted() {
+    const zoom = mediumZoom('[data-zoomable]');
+
+    zoom.on('open', event => {
+      const zoomedImg = zoom.getZoomedImage();
+      if (zoomedImg) {
+        zoomedImg.style.objectFit = 'contain';
+      }
+    });
+
+    zoom.on('closed', event => {
+      const imgs = zoom.getImages();
+      imgs.forEach(img => {
+        img.style.objectFit = '';
+      });
+    });
+  },
+};
 </script>
 
 <style scoped>
@@ -48,7 +67,7 @@ export default {
 
 .header {
   padding: 10px 12px 4px 12px;
-  border-bottom: 1px solid var(--vp-c-gray-1);
+  border-bottom: 2px solid var(--vp-c-gray-1);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,7 +75,7 @@ export default {
 
 .footer {
   padding: 4px 12px;
-  border-top: 1px solid var(--vp-c-gray-1);
+  border-top: 2px solid var(--vp-c-gray-1);
 }
 
 .title {
