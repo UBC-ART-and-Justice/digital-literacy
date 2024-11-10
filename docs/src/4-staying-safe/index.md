@@ -9,7 +9,7 @@ You can do so much while using computers and the internet. Tasks that were previ
 
 This is true for everyone! Sometimes on the news, you might hear about people being “hacked” or or having their “data stolen”. However, there are some simple things you can do to stay safe. Just like how you might lock your front door as a good habit, there are some habits to keep your digital life safe.
 
-![A golden padlock sitting on top of a keyboard](/course/4-staying-safe/padlock.jpg){ width="400" style="display: block; margin: 0 auto" }
+![A golden padlock sitting on top of a keyboard](/course/4-staying-safe/padlock.jpg){ width="400" style="display: block; margin: 0 auto;border-radius: 12px;" }
 
 <!-- https://unsplash.com/photos/a-golden-padlock-sitting-on-top-of-a-keyboard-FnA5pAzqhMM -->
 
