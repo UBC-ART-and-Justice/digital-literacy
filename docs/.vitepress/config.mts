@@ -23,8 +23,8 @@ export default withMermaid(
       nav: [
         { text: 'Home', link: '/' },
         { text: 'Content', link: '/tech-terror-experience.md' },
-        { text: 'About', link: '/about' },
-        { text: 'Gallery', link: '/gallery' }
+        { text: 'Gallery', link: '/gallery' },
+        { text: 'About', link: '/about' }
       ],
 
       sidebar: {
@@ -113,6 +113,7 @@ export default withMermaid(
     },
     mermaidPlugin: {
       class: "mermaid my-class",
-    }
+    },
+
   })
 );

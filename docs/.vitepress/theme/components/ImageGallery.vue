@@ -24,12 +24,22 @@ export default {
     },
     date: {
       type: String,
-      required: true
+      required: false
     },
     images: {
       type: Array,
       required: true
     },
+  },
+  computed: {
+    processedImages() {
+      return this.images.map(image => {
+        return {
+          ...image,
+          src: `${import.meta.env.BASE_URL}${image.src.replace(/^\//, '')}`
+        };
+      });
+    }
   },
   mounted() {
     const zoom = mediumZoom('[data-zoomable]');
