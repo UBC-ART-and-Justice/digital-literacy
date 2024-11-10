@@ -40,7 +40,7 @@ We believe that art and writing are powerful tools of connection and social chan
   </VPTeamPageTitle>
   <VPTeamPageSection>
   <template #members>
-      <VPTeamMembers size="medium" :members="teamMembers" />
+      <VPTeamMembers size="medium" :members="processedTeamMembers" />
     </template>
   </VPTeamPageSection>
 </VPTeamPage>
@@ -150,6 +150,7 @@ import {
   VPTeamMembers,
   VPTeamPageSection
 } from 'vitepress/theme'
+import { computed } from 'vue'
 
 const teamMembers = [
   {
@@ -186,7 +187,7 @@ const teamMembers = [
     title: 'Developer & Volunteer',
   },
   {
-    avatar: '/team/sagedrake.png',
+    avatar: '/team/sagedrake.jpg',
     name: 'sagedrake',
     title: 'Developer & Volunteer',
   },
@@ -196,4 +197,11 @@ const teamMembers = [
     title: 'Developer & Volunteer',
   },
 ]
+
+const processedTeamMembers = computed(() =>
+  teamMembers.map(member => ({
+    ...member,
+    avatar: `${import.meta.env.BASE_URL}${member.avatar.replace(/^\//, '')}`
+  }))
+)
 </script>
