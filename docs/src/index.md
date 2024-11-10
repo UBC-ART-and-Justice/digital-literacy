@@ -31,7 +31,7 @@ We have organized the content to be used on our project's tablets. The sections 
 
 <VitepressCardContainer :cols="2">
   <VitepressCard
-    mdiIcon="monitor-cellphone"
+    mdiIcon="mdiMonitorCellphone"
     iconColor="var(--vp-c-brand-2)"
     title="Introduction"
     link="./tech-terror-experience"
@@ -40,7 +40,7 @@ We have organized the content to be used on our project's tablets. The sections 
     One person's journey to adjust to a technology-driven world after 20 years in prison.
   </VitepressCard>
   <VitepressCard
-    mdiIcon="cellphone"
+    mdiIcon="mdiCellphone"
     iconColor="var(--vp-c-brand-2)"
     title="Using a Tablet"
     link="./1-tablet-navigation/index"
@@ -49,7 +49,7 @@ We have organized the content to be used on our project's tablets. The sections 
     Learn the basics of using a tablet, from keyboard skills to icons and accessibility settings.
   </VitepressCard>
   <VitepressCard
-    mdiIcon="apps"
+    mdiIcon="mdiApps"
     iconColor="var(--vp-c-brand-2)"
     title="Internet and Apps"
     link="./2-apps-and-internet/index"
@@ -58,7 +58,7 @@ We have organized the content to be used on our project's tablets. The sections 
     Learn about connecting to the internet and using browsers, search engines, and apps.
   </VitepressCard>
   <VitepressCard
-    mdiIcon="folder"
+    mdiIcon="mdiFolder"
     iconColor="var(--vp-c-brand-2)"
     title="Files"
     link="./3-file-system/index"
@@ -67,7 +67,7 @@ We have organized the content to be used on our project's tablets. The sections 
     Learn what files and folders are, and how you can use them to save and share information.
   </VitepressCard>
   <VitepressCard
-    mdiIcon="shield-alert"
+    mdiIcon="mdiShieldAlert"
     iconColor="var(--vp-c-brand-2)"
     title="Staying Safe"
     link="./4-staying-safe/index"
@@ -76,7 +76,7 @@ We have organized the content to be used on our project's tablets. The sections 
     Stay safe when using the internet, and learn about updates, passwords, encryption, and viruses.
   </VitepressCard>
   <VitepressCard
-    mdiIcon="forum-outline"
+    mdiIcon="mdiForumOutline"
     iconColor="var(--vp-c-brand-2)"
     title="Communication"
     link="./5-communication/index"

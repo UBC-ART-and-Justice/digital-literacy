@@ -21,7 +21,7 @@ However, the information in this section may still be useful to you! You can use
 
 <VitepressCardContainer :cols="2">
   <VitepressCard
-    mdiIcon="web"
+    mdiIcon="mdiWeb"
     iconColor="var(--vp-c-brand-2)"
     title="The Internet"
     link="./2.1-the-internet"
@@ -30,7 +30,7 @@ However, the information in this section may still be useful to you! You can use
   This section explains what the internet is and how to connect to it.
   </VitepressCard>
   <VitepressCard
-    mdiIcon="link-box"
+    mdiIcon="mdiLinkBox"
     iconColor="var(--vp-c-brand-2)"
     title="Websites"
     link="./2.2-websites"
@@ -39,7 +39,7 @@ However, the information in this section may still be useful to you! You can use
   This section discusses websites, web pages, web addresses, and links.
   </VitepressCard>
   <VitepressCard
-    mdiIcon="magnify"
+    mdiIcon="mdiMagnify"
     iconColor="var(--vp-c-brand-2)"
     title="Searching"
     link="./2.3-searching"
@@ -48,7 +48,7 @@ However, the information in this section may still be useful to you! You can use
   This section explains what it means to search the internet, and how to make a search.
   </VitepressCard>
   <VitepressCard
-    mdiIcon="star-circle"
+    mdiIcon="mdiStarCircle"
     iconColor="var(--vp-c-brand-2)"
     title="Browser Features"
     link="./2.4-browser-features"
@@ -57,7 +57,7 @@ However, the information in this section may still be useful to you! You can use
   This section summarizes some common features of web browsers that assist with navigating the internet.
   </VitepressCard>
   <VitepressCard
-    mdiIcon="help-rhombus"
+    mdiIcon="mdiHelpRhombus"
     iconColor="var(--vp-c-brand-2)"
     title="Reputable Sources"
     link="./2.5-reputable-sources"
@@ -66,7 +66,7 @@ However, the information in this section may still be useful to you! You can use
   This section covers some ways of determining whether a source is reliable.
   </VitepressCard>
   <VitepressCard
-    mdiIcon="apps"
+    mdiIcon="mdiApps"
     iconColor="var(--vp-c-brand-2)"
     title="Apps"
     link="./2.6-apps"

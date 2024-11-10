@@ -34,7 +34,7 @@ Sometimes it's just cool to know how things work!
 
 <VitepressCardContainer :cols="2">
   <VitepressCard
-    mdiIcon="update"
+    mdiIcon="mdiUpdate"
     iconColor="var(--vp-c-brand-2)"
     title="Updates"
     link="./4.1-updates"
@@ -43,7 +43,7 @@ Sometimes it's just cool to know how things work!
   This section covers what updates are, why they are important, and how to install them.
   </VitepressCard>
   <VitepressCard
-    mdiIcon="form-textbox-password"
+    mdiIcon="mdiFormTextboxPassword"
     iconColor="var(--vp-c-brand-2)"
     title="Passwords"
     link="./4.2-passwords"
@@ -52,7 +52,7 @@ Sometimes it's just cool to know how things work!
   This section covers what passwords are and what makes a 'good' password.
   </VitepressCard>
   <VitepressCard
-    mdiIcon="lock-check"
+    mdiIcon="mdiLockCheck"
     iconColor="var(--vp-c-brand-2)"
     title="Encryption"
     link="./4.3-encryption"
@@ -61,7 +61,7 @@ Sometimes it's just cool to know how things work!
   This section covers what encryption is, and how it can help keep your information safe.
   </VitepressCard>
   <VitepressCard
-    mdiIcon="virus"
+    mdiIcon="mdiVirus"
     iconColor="var(--vp-c-brand-2)"
     title="Viruses"
     link="./4.4-viruses"
@@ -70,7 +70,7 @@ Sometimes it's just cool to know how things work!
   This section covers what viruses are, and how to protect your computer from them.
   </VitepressCard>
   <VitepressCard
-    mdiIcon="web"
+    mdiIcon="mdiWeb"
     iconColor="var(--vp-c-brand-2)"
     title="Internet Safety"
     link="./4.5-internet-safety"

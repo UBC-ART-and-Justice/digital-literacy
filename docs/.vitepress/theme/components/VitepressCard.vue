@@ -1,39 +1,64 @@
 <template>
   <div class="card">
     <p class="text-with-icon">
-      <Icon
-        v-if="resolvedIcon"
-        :icon="resolvedIcon"
-        width="1.2em"
-        height="1.2em"
-        :style="{ color: iconColor }"
+      <MdiIcon
+        v-if="resolvedIconPath"
+        :iconPath="resolvedIconPath"
+        :width="'1.2em'"
+        :height="'1.2em'"
+        :iconColor="iconColor"
       />
-      <span :class="['title', { 'no-icon': !resolvedIcon }]">{{ title }}</span>
+      <span :class="['title', { 'no-icon': !resolvedIconPath }]">{{ title }}</span>
     </p>
     <div class="card-body">
       <slot />
     </div>
     <a v-if="link" :href="link" class="card-link">
       {{ actualLinkText }}
-      <Icon icon="mdi:arrow-right" class="arrow-icon" />
+      <MdiIcon :iconPath="mdiArrowRight" class="arrow-icon" />
     </a>
   </div>
 </template>
 
 <script>
-import { Icon } from "@iconify/vue";
-import { computed } from 'vue';
+import { computed } from "vue";
+import MdiIcon from "./MdiIcon.vue";
+import {
+  mdiArrowRight,
+  mdiMonitorCellphone,
+  mdiCellphone,
+  mdiApps,
+  mdiFile,
+  mdiFolder,
+  mdiShieldAlert,
+  mdiForumOutline,
+  mdiInformation,
+  mdiCog,
+  mdiMinusCircle,
+  mdiArrowRightBoldBox,
+  mdiWeb,
+  mdiLinkBox,
+  mdiMagnify,
+  mdiStarCircle,
+  mdiHelpRhombus,
+  mdiContentSaveCheck,
+  mdiFolderAccount,
+  mdiUpdate,
+  mdiFormTextboxPassword,
+  mdiLockCheck,
+  mdiVirus,
+  mdiEmailFast,
+  mdiCommentCheck,
+  mdiVideoPlus,
+  mdiAccountMultipleOutline,
+} from "@mdi/js"; // Import icons you plan to use
 
 export default {
   name: "VitepressCard",
   components: {
-    Icon,
+    MdiIcon,
   },
   props: {
-    icon: {
-      type: String,
-      default: "",
-    },
     mdiIcon: {
       type: String,
       default: "",
@@ -56,11 +81,40 @@ export default {
     },
   },
   setup(props) {
-    const resolvedIcon = computed(() => {
-      if (props.mdiIcon) {
-        return `mdi:${props.mdiIcon}`;
-      }
-      return props.icon || "";
+    // Use the prop value directly to resolve the icon path
+    const iconPaths = {
+      mdiArrowRight,
+      mdiMonitorCellphone,
+      mdiCellphone,
+      mdiApps,
+      mdiFile,
+      mdiFolder,
+      mdiShieldAlert,
+      mdiForumOutline,
+      mdiInformation,
+      mdiCog,
+      mdiMinusCircle,
+      mdiArrowRightBoldBox,
+      mdiWeb,
+      mdiLinkBox,
+      mdiMagnify,
+      mdiStarCircle,
+      mdiHelpRhombus,
+      mdiContentSaveCheck,
+      mdiFolderAccount,
+      mdiUpdate,
+      mdiFormTextboxPassword,
+      mdiLockCheck,
+      mdiVirus,
+      mdiEmailFast,
+      mdiCommentCheck,
+      mdiVideoPlus,
+      mdiAccountMultipleOutline,
+      // Use any other icons you'd like to support
+    };
+
+    const resolvedIconPath = computed(() => {
+      return iconPaths[props.mdiIcon] || null;
     });
 
     const actualLinkText = computed(() => {
@@ -68,8 +122,9 @@ export default {
     });
 
     return {
-      resolvedIcon,
+      resolvedIconPath,
       actualLinkText,
+      mdiArrowRight,
     };
   },
 };

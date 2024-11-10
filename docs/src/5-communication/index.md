@@ -12,7 +12,7 @@ This section covers different ways of using technology to communicate with other
 
 <VitepressCardContainer :cols="2">
   <VitepressCard
-    mdiIcon="email-fast"
+    mdiIcon="mdiEmailFast"
     iconColor="var(--vp-c-brand-2)"
     title="Email"
     link="./5.1-email"
@@ -21,7 +21,7 @@ This section covers different ways of using technology to communicate with other
   This section explains what an email is, how to write and send an email, and other email-related topics.
   </VitepressCard>
   <VitepressCard
-    mdiIcon="comment-text"
+    mdiIcon="mdiCommentCheck"
     iconColor="var(--vp-c-brand-2)"
     title="Texting"
     link="./5.2-texting"
@@ -30,7 +30,7 @@ This section covers different ways of using technology to communicate with other
   This section covers the concepts of texting, abbreviations, emojis, contacts, and phone numbers.
   </VitepressCard>
   <VitepressCard
-    mdiIcon="forum-outline"
+    mdiIcon="mdiForumOutline"
     iconColor="var(--vp-c-brand-2)"
     title="Direct Messages"
     link="./5.3-direct-message"
@@ -39,7 +39,7 @@ This section covers different ways of using technology to communicate with other
   This section explains what direct messages are and how they differ from texts.
   </VitepressCard>
   <VitepressCard
-    mdiIcon="video-plus"
+    mdiIcon="mdiVideoPlus"
     iconColor="var(--vp-c-brand-2)"
     title="Video Calls"
     link="./5.4-video-calls"
@@ -48,7 +48,7 @@ This section covers different ways of using technology to communicate with other
   This section covers the purpose and features of video calls.
   </VitepressCard>
   <VitepressCard
-    mdiIcon="account-multiple-outline"
+    mdiIcon="mdiAccountMultipleOutline"
     iconColor="var(--vp-c-brand-2)"
     title="Social Media"
     link="./5.5-social-media"

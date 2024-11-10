@@ -181,17 +181,17 @@ const teamMembers = [
     // actionText: 'Learn more'
   },
   {
-    avatar: 'https://avatars.githubusercontent.com/u/26402139',
+    avatar: '/team/cynber.png',
     name: 'cynber',
     title: 'Developer & Volunteer',
   },
   {
-    avatar: 'https://avatars.githubusercontent.com/u/98669531',
+    avatar: '/team/sagedrake.png',
     name: 'sagedrake',
     title: 'Developer & Volunteer',
   },
   {
-    avatar: 'https://avatars.githubusercontent.com/u/98340537',
+    avatar: '/team/logank8.png',
     name: 'logank8',
     title: 'Developer & Volunteer',
   },

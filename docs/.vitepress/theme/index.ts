@@ -13,6 +13,7 @@ import Card from './components/Card.vue';         // Custom components
 import CardContainer from './components/CardContainer.vue';
 import ImageGallery from './components/ImageGallery.vue'
 import ImageText from './components/ImageText.vue';
+import MdiIcon from './components/MdiIcon.vue'
 import VitepressCard from './components/VitepressCard.vue';
 import VitepressCardContainer from './components/VitepressCardContainer.vue';
 import TermList from './components/TermList.vue';
@@ -30,6 +31,7 @@ export default {
     app.component('CardContainer', CardContainer);
     app.component('ImageGallery', ImageGallery);
     app.component('ImageText', ImageText);
+    app.component('MdiIcon', MdiIcon);
     app.component('VitepressCard', VitepressCard);
     app.component('VitepressCardContainer', VitepressCardContainer);
     app.component('TermList', TermList);
