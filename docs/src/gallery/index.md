@@ -30,13 +30,13 @@ layout: home
   title="The Reach Art Show"
   date="2022-09-23"
   :images="[
-    { src: '/gallery/2022-09-23_the-reach-show/Elder_Roberta_at_the_Reach.jpg', alt: 'Digital-Filming-Week' },
-    { src: '/gallery/2022-09-23_the-reach-show/Indigenous_wall.jpg', alt: 'Digital-Filming-Week' },
-    { src: '/gallery/2022-09-23_the-reach-show/Nicolas_at_the_Reach.jpg', alt: 'Digital-Filming-Week' },
-    { src: '/gallery/2022-09-23_the-reach-show/reading_wall.jpg', alt: 'Digital-Filming-Week' },
-    { src: '/gallery/2022-09-23_the-reach-show/Sculptures.jpg', alt: 'Digital-Filming-Week' },
-    { src: '/gallery/2022-09-23_the-reach-show/Shadow_Theatre_Screening.jpg', alt: 'Digital-Filming-Week' },
-    { src: '/gallery/2022-09-23_the-reach-show/Stained_Glass.jpg', alt: 'Digital-Filming-Week' }
+    { src: '/gallery/2022-09-23_the-reach-show/Elder_Roberta_at_the_Reach.jpg', alt: 'The Reach Show' },
+    { src: '/gallery/2022-09-23_the-reach-show/Indigenous_wall.jpg', alt: 'The Reach Show' },
+    { src: '/gallery/2022-09-23_the-reach-show/Nicolas_at_the_Reach.jpg', alt: 'The Reach Show' },
+    { src: '/gallery/2022-09-23_the-reach-show/reading_wall.jpg', alt: 'The Reach Show' },
+    { src: '/gallery/2022-09-23_the-reach-show/Sculptures.jpg', alt: 'The Reach Show' },
+    { src: '/gallery/2022-09-23_the-reach-show/Shadow_Theatre_Screening.jpg', alt: 'The Reach Show' },
+    { src: '/gallery/2022-09-23_the-reach-show/Stained_Glass.jpg', alt: 'The Reach Show' }
   ]"
 />
 

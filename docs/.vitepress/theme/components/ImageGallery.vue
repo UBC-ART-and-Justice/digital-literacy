@@ -5,7 +5,7 @@
       <p class="date">{{ date }}</p>
     </div>
     <div class="image-grid">
-      <div v-for="(image, index) in images" :key="index" class="image-container">
+      <div v-for="(image, index) in processedImages" :key="index" class="image-container">
         <img :src="image.src" :alt="image.alt || 'gallery-image'" data-zoomable />
       </div>
     </div>
