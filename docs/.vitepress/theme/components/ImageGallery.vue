@@ -14,47 +14,47 @@
 </template>
 
 <script>
-import mediumZoom from 'medium-zoom';
+import mediumZoom from "medium-zoom";
 
 export default {
   props: {
     title: {
       type: String,
-      required: true
+      required: true,
     },
     date: {
       type: String,
-      required: false
+      required: false,
     },
     images: {
       type: Array,
-      required: true
+      required: true,
     },
   },
   computed: {
     processedImages() {
-      return this.images.map(image => {
+      return this.images.map((image) => {
         return {
           ...image,
-          src: `${import.meta.env.BASE_URL}${image.src.replace(/^\//, '')}`
+          src: `${import.meta.env.BASE_URL}${image.src.replace(/^\//, "")}`,
         };
       });
-    }
+    },
   },
   mounted() {
-    const zoom = mediumZoom('[data-zoomable]');
+    const zoom = mediumZoom("[data-zoomable]");
 
-    zoom.on('open', event => {
+    zoom.on("open", (event) => {
       const zoomedImg = zoom.getZoomedImage();
       if (zoomedImg) {
-        zoomedImg.style.objectFit = 'contain';
+        zoomedImg.style.objectFit = "contain";
       }
     });
 
-    zoom.on('closed', event => {
+    zoom.on("closed", (event) => {
       const imgs = zoom.getImages();
-      imgs.forEach(img => {
-        img.style.objectFit = '';
+      imgs.forEach((img) => {
+        img.style.objectFit = "";
       });
     });
   },
@@ -70,7 +70,8 @@ export default {
   transition: border-color 0.25s;
 }
 
-.header, .footer {
+.header,
+.footer {
   background-color: var(--vp-c-bg-soft);
   transition: background-color 0.25s;
 }

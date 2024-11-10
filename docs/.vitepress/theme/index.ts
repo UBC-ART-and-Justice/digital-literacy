@@ -9,7 +9,6 @@ import { Icon } from '@iconify/vue';              // Iconify
 import { onMounted, watch, nextTick } from 'vue'; // Medium Zoom
 import { useRoute } from 'vitepress';             
 import mediumZoom from 'medium-zoom';
-import VuePDFViewer from "pdf-viewer-vue";
 import Card from './components/Card.vue';         // Custom components
 import CardContainer from './components/CardContainer.vue';
 import ImageGallery from './components/ImageGallery.vue'
@@ -33,7 +32,6 @@ export default {
     app.component('ImageGallery', ImageGallery);
     app.component('ImageText', ImageText);
     app.component('MdiIcon', MdiIcon);
-    app.component('VuePDFViewer', VuePDFViewer);
     app.component('VitepressCard', VitepressCard);
     app.component('VitepressCardContainer', VitepressCardContainer);
     app.component('TermList', TermList);
