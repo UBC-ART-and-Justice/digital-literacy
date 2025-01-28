@@ -86,9 +86,11 @@ We have organized the content to be used on our project's tablets. The sections 
   </VitepressCard>
 </VitepressCardContainer>
 
-<!-- Find and replace
+## Art Exhibitions & Gallery
 
-body="(.*)"\n(.*)\n(.*)\n(.*)
+<BlogPostList
+  format="vertical"
+  filterCategory="Gallery"
+  hideCategory="true"
+/>
 
-$2\n$3\n>\n$1\n</VitepressCard>
--->

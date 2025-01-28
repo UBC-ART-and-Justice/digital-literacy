@@ -15,6 +15,9 @@ export default withMermaid(
     ],
     cleanUrls: true,
     lastUpdated: false,
+    vite: { 
+      ssr: { noExternal: ['@cynber/vitepress-valence']} 
+    },
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       search: {
