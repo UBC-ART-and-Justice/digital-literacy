@@ -2,7 +2,7 @@
 title: "Outsiders Art Festival"
 author: artjustice
 category: Gallery
-banner: "/digital-literacy/gallery/2xxx_outsider-arts-festival/spirit-in-the-sky.jpg"
+banner: "/gallery/2xxx_outsider-arts-festival/spirit-in-the-sky.jpg"
 
 excerpt: "The Vancouver Outsider Arts Festival showcases the work of visual artists and performers outside of mainstream art institutions. We strive to provide a platform for these artists to share their unique perspectives and artistic visions with the community."
 
