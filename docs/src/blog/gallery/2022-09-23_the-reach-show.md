@@ -3,7 +3,7 @@ title: "Reach Gallery Show"
 date: 2022-09-03
 author: artjustice
 category: Gallery
-banner: "/gallery/2022-09-23_the-reach-show/1_at_the_Reach.jpg"
+banner: "/digital-literacy/gallery/2022-09-23_the-reach-show/1_at_the_Reach.jpg"
 
 excerpt: "Organized by Action, Reciprocity, Transformation (A.R.T.) & Justice, a research team based out of the UBC School of Nursing, working in partnership with Correctional Service of Canada. Created by anonymous artists & storytellers in prison across BC."
 
