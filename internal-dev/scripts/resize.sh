@@ -91,7 +91,7 @@ total_output_size=0
 count=1
 
 # Process only image files from input directory
-for file in input/*.{jpg,jpeg,png,gif,bmp}; do
+for file in input/*.{jpg,jpeg,png,gif,bmp,JPG}; do
     # Check if file exists and is a regular file
     if [ -f "$file" ]; then
         width=$(identify -format "%w" "$file")

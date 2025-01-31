@@ -28,8 +28,8 @@ import {
   EmbedLemmy,
   EmbedMailchimpSubscribe,
 } from '@cynber/vitepress-valence'
-import authors from './data/authors.js'
-import { data as postsData } from './data/posts.data.js';
+// import authors from './data/authors.js'
+// import { data as postsData } from './data/posts.data.js';
 import { data as galleryData } from './data/gallery.data.js';
 
 
@@ -57,8 +57,8 @@ export default {
     app.component('JSONTable', JSONTable)
     app.component('EmbedLemmy', EmbedLemmy)
     app.component('EmbedMailchimpSubscribe', EmbedMailchimpSubscribe)
-    app.provide('authors', authors)
-    app.provide('postsData', postsData)
+    // app.provide('authors', authors)
+    // app.provide('postsData', postsData)
     app.provide('galleryData', galleryData)
   },
   setup() {

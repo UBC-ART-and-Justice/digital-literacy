@@ -85,7 +85,7 @@ const gallerySidebar = [
       {
         text: 'Past Events',
         items: [
-          { text: 'Locked Up: The Soul Speaks Out', link: '/blog/gallery/2022-07-23_locked-up-the-soul-speaks-out' },
+          // { text: 'Locked Up: The Soul Speaks Out', link: '/blog/gallery/2022-07-23_locked-up-the-soul-speaks-out' },
           { text: 'Forgotten Artists: Art is Out Freedom', link: '/blog/gallery/2022-09-23_forgotten-artists-art-is-our-freedom' },
           { text: 'A.R.T. & Justice', link: '/blog/gallery/2023-10-13_art-and-justice' },
           { text: 'shift', link: '/blog/gallery/2024-01-17_shift' },
