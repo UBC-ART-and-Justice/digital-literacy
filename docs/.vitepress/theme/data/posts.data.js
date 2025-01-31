@@ -2,9 +2,12 @@ import { createContentLoader } from 'vitepress';
 
 const blogPath = 'blog';
 
+console.log('process.env.VITEPRESS_BASE:', process.env.VITEPRESS_BASE);
+
 // const data = createContentLoader('blog/**/*.md', {
 const data = createContentLoader(`${blogPath}/**/*.md`, {
     transform(rawData) {
+        console.log('Raw Data:', rawData);
         return rawData
             .map(post => ({
                 ...post,
