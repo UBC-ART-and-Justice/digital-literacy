@@ -14,7 +14,6 @@ export default {
     console.log('Gallery loader: Starting scan of', GALLERY_DIR);
 
     function scanDirectory(dir) {
-      console.log('Scanning subdirectory:', dir);
       const items = fs.readdirSync(dir);
       items.forEach(item => {
         const fullPath = path.join(dir, item);
@@ -35,6 +34,7 @@ export default {
 
           // only log first image
           if (images.length === 0) {
+            console.log('dir:', dir);
             console.log('First image:', relativePath);
           }
 
@@ -49,7 +49,10 @@ export default {
     }
 
     scanDirectory(GALLERY_DIR);
+
+
     console.log('Gallery loader: Found total images:', images.length);
+    console.log('gallery_loader | images.slice(0,3):', images.slice(0, 3));
     return images;
   }
 };

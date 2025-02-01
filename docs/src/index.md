@@ -43,4 +43,3 @@ features:
     link: /updates
     linkText: View Updates
 ---
-
