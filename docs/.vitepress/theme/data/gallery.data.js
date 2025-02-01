@@ -53,7 +53,6 @@ export default {
           let relativePath = path.relative(absoluteGalleryDir, fullPath).replace(/\\/g, '/');
           relativePath = `/${relativePath}`;
 
-          // only log first image
           if (images.length === 0) {
             console.log('dir:', dir);
             console.log('First image:', relativePath);
@@ -61,7 +60,8 @@ export default {
 
           images.push({
             path: relativePath,
-            folder: path.dirname(relativePath),
+            // Ensure the folder path also uses forward slashes
+            folder: path.join(GALLERY_DIR, path.dirname(relativePath)).replace(/\\/g, '/'),
             filename: item
           });
         }
