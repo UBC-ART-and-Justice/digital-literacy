@@ -2,8 +2,6 @@ import fs from 'fs';
 import path from 'path';
 
 const GALLERY_DIR = 'docs/src/public/gallery';
-const TEST = import.meta.env;
-console.log('gallery_loader | TEST:', TEST);
 const base = process.env.VITEPRESS_BASE || '';
 console.log('gallery_loader | BASE URL:', base);
 

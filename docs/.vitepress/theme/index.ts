@@ -10,7 +10,6 @@ import { onMounted, watch, nextTick } from 'vue'; // Medium Zoom
 import { useRoute } from 'vitepress';
 import mediumZoom from 'medium-zoom';
 // import ImageGallery from './components/ImageGallery.vue'
-import ImageText from './components/ImageText.vue';
 import MdiIcon from './components/MdiIcon.vue'
 import VitepressCard from './components/VitepressCard.vue';
 import VitepressCardContainer from './components/VitepressCardContainer.vue';
@@ -42,7 +41,7 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     app.component('Icon', Icon);
-    app.component('ImageText', ImageText);
+    // app.component('ImageText', ImageText);
     app.component('MdiIcon', MdiIcon);
     app.component('VitepressCard', VitepressCard);
     app.component('VitepressCardContainer', VitepressCardContainer);
