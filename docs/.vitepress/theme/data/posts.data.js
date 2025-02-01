@@ -25,5 +25,5 @@ const data = createContentLoader(`${blogPath}/**/*.md`, {
     }
 });
 
-console.log('data:', data);
+// console.log('data:', data);
 export default data;

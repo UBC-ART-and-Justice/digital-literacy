@@ -3,15 +3,16 @@ import path from 'path';
 
 const GALLERY_DIR = 'docs/src/public/gallery';
 const base = process.env.VITEPRESS_BASE || '';
+console.log('Gallery loader: Base URL:', base);
 
 export default {
   watch: [`${GALLERY_DIR}/**/*`],
   async load() {
     const images = [];
-    // console.log('Gallery loader: Starting scan of', GALLERY_DIR);
+    console.log('Gallery loader: Starting scan of', GALLERY_DIR);
 
     function scanDirectory(dir) {
-      //   console.log('Scanning subdirectory:', dir);
+      console.log('Scanning subdirectory:', dir);
       const items = fs.readdirSync(dir);
       items.forEach(item => {
         const fullPath = path.join(dir, item);
@@ -29,6 +30,7 @@ export default {
           if (base) {
             relativePath = `${base}${relativePath.replace(/^\//, '')}`;
           }
+          console.log('Found image:', relativePath);
 
           //   console.log('Found image:', relativePath);
           images.push({
@@ -41,7 +43,7 @@ export default {
     }
 
     scanDirectory(GALLERY_DIR);
-    // console.log('Gallery loader: Found total images:', images.length);
+    console.log('Gallery loader: Found total images:', images.length);
     return images;
   }
 };
