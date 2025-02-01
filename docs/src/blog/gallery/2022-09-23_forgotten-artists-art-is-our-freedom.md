@@ -40,6 +40,6 @@ Inspired by the important artistic voice and vision of people in prison, and aim
     title="Forgotten Artists: Art is Out Freedom"
     date="2022-09-23"
     :folders="[
-        '2022-09-23_forgotten-artists-art-is-our-freedom',
+        '/public/gallery/2022-09-23_forgotten-artists-art-is-our-freedom',
     ]"
 />
