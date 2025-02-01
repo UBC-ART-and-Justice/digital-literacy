@@ -2,8 +2,10 @@ import fs from 'fs';
 import path from 'path';
 
 const GALLERY_DIR = 'docs/src/public/gallery';
+const TEST = import.meta.env;
+console.log('gallery_loader | TEST:', TEST);
 const base = process.env.VITEPRESS_BASE || '';
-console.log('Gallery loader: Base URL:', base);
+console.log('gallery_loader | BASE URL:', base);
 
 export default {
   watch: [`${GALLERY_DIR}/**/*`],
@@ -30,7 +32,11 @@ export default {
           if (base) {
             relativePath = `${base}${relativePath.replace(/^\//, '')}`;
           }
-          console.log('Found image:', relativePath);
+
+          // only log first image
+          if (images.length === 0) {
+            console.log('First image:', relativePath);
+          }
 
           //   console.log('Found image:', relativePath);
           images.push({
