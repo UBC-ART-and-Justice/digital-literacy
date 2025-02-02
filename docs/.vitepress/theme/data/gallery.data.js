@@ -35,6 +35,8 @@ const SRC_DIR = 'src';
 const GALLERY_DIR = 'public/gallery';
 
 const absoluteGalleryDir = path.resolve(process.cwd(), SITE_DIR, SRC_DIR, GALLERY_DIR);
+const base = process.env.VITEPRESS_BASE || '';
+console.log('gallery_loader | BASE URL:', base);
 
 export default {
   watch: [`${absoluteGalleryDir}/**/*`],
@@ -51,7 +53,13 @@ export default {
           scanDirectory(fullPath);
         } else if (/\.(jpg|jpeg|png|gif|webp)$/i.test(item)) {
           let relativePath = path.relative(absoluteGalleryDir, fullPath).replace(/\\/g, '/');
+          relativePath = path.join(GALLERY_DIR, relativePath);
           relativePath = `/${relativePath}`;
+
+          // Prepend the base URL if it's defined
+          if (base) {
+            relativePath = `${base}${relativePath.replace(/^\//, '')}`;
+          }
 
           if (images.length === 0) {
             console.log('dir:', dir);
@@ -60,8 +68,7 @@ export default {
 
           images.push({
             path: relativePath,
-            // Ensure the folder path also uses forward slashes
-            folder: path.join(GALLERY_DIR, path.dirname(relativePath)).replace(/\\/g, '/'),
+            folder: path.dirname(relativePath).replace(/\\/g, '/'),
             filename: item
           });
         }
