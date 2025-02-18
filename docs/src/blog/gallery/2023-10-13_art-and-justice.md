@@ -27,7 +27,7 @@ The Vancouver Outsider Arts Festival showcases the work of visual artists and pe
     title="A.R.T. & Justice"
     date="2023-10-13"
     :folders="[
-        '2023-10-13_art-and-justice',
+        '/gallery/2023-10-13_art-and-justice',
     ]"
 />
 

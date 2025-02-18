@@ -23,6 +23,6 @@ For the past two years, ART & Justice has been part of a collaborative project w
 <ImageGallery
     title="Art Activism 2024"
     :folders="[
-        '2024_art-activism',
+        '/gallery/2024_art-activism',
     ]"
 />

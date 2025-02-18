@@ -23,6 +23,6 @@ For the past two years, ART & Justice has been part of a collaborative project w
 <ImageGallery
   title="Art Activism 2023"
   :folders="[
-    '/public/gallery/2022-09-23_forgotten-artists-art-is-our-freedom',
+    '/gallery/2022-09-23_forgotten-artists-art-is-our-freedom',
   ]"
 />
