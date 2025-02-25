@@ -4,7 +4,7 @@ const contentSidebar = [
   {
     text: 'Introduction',
     items: [
-      { text: 'Technology Terror Experience', link: '/tech-terror-experience.md' },
+      { text: 'Technology Terror Experience', link: '/introduction/tech-terror-experience.md' },
     ]
   },
   {
