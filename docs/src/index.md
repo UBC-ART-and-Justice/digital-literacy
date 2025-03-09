@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Start Learning
-      link: /markdown-examples
+      link: /introduction/content.md
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples
@@ -39,7 +39,7 @@ features:
   - title: Newsletters & Messages from our team
     icon:
       src: https://placehold.co/200x200
-    details: Read our past newsletters and updates from the team
-    link: /updates
-    linkText: View Updates
+    details: Read our past newsletters and updates from the team (coming soon)
+    #link: /updates
+    #linkText: View Updates
 ---
