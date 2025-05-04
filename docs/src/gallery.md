@@ -3,9 +3,12 @@
 layout: home
 
 hero:
-  text: Art Exhibitions & Gallery
+  text: Art Exhibitions & Galllery
+  tagline: These virtual galleries display artwork from various A.R.T. & Justice events and projects. This makes the artwork accessible for more people to appreciate.
   image:
-    src: "https://placehold.co/200x200"
+    src: gallery\Logo-ART-Justice.png
+    width: 250
+    height: 250
 
 ---
 
