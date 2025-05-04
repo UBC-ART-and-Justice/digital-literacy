@@ -6,7 +6,7 @@ hero:
   text: Digital Literacy Content
   tagline: We have organized the content to be used on our project's tablets. The sections are designed to be read in order, but you can skip ahead if you're already familiar with any of the topics!
   image:
-    src: "https://placehold.co/200x200"
+    src: "/icons/tablet.png"
 
 features:
 

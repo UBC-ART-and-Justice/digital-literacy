@@ -35,7 +35,7 @@ features:
       src: /icons/gallery.png
       width: 60
       height: 60
-    details: See photos of past events and other ART & Justice content
+    details: See photos of past events and other A.R.T. & Justice content
     link: /gallery
     linkText: View Gallery
   - title: Community Feedback
