@@ -1,17 +1,10 @@
 import { defineConfig } from 'vitepress'
-import { withMermaid } from 'vitepress-plugin-mermaid';
-
-
-
-
-
-
 
 const contentSidebar = [
   {
     text: 'Introduction',
     items: [
-      { text: 'Technology Terror Experience', link: '/tech-terror-experience.md' },
+      { text: 'Technology Terror Experience', link: '/introduction/tech-terror-experience.md' },
     ]
   },
   {
@@ -120,7 +113,7 @@ const gallerySidebar = [
 
 
 // https://vitepress.dev/reference/site-config
-export default withMermaid(
+export default (
   defineConfig({
     title: "Digital Literacy",
     description: "Digital Literacy Content",
@@ -159,13 +152,6 @@ export default withMermaid(
         '/blog/art-activism/': gallerySidebar,
         '/blog/gallery/': gallerySidebar,
       }
-    },
-    mermaid: {
-      theme: 'default',
-    },
-    mermaidPlugin: {
-      class: "mermaid my-class",
-    },
-
+    }
   })
 );

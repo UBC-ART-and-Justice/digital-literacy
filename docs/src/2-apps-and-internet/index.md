@@ -1,3 +1,7 @@
+![Apps Banner](/banners/NavigatingApps.png){ width="100%" style="border-radius: 12px;" }
+ 
+##
+
 # Unit 2: Apps, Websites, and the Internet
 
 Almost anything you do on a computer, phone, or other device will involve using an app, the internet, or oftentimes both. You may not know it, but you are already using an app right now to read this!

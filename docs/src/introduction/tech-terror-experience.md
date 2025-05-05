@@ -1,3 +1,7 @@
+![Introduction Banner](/banners/NotesFromOurTeam.png){ width="100%" style="border-radius: 12px;" }
+
+##
+
 # The Technology Terror Experience
 
 One person's journey to adjust to a technology-driven world after 20 years in prison.
