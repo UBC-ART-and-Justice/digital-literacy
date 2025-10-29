@@ -17,7 +17,7 @@
   "dependencies": {
     "@capacitor/android": "^6.2.1",
     "@capacitor/core": "^6.2.1",
-    "@cynber/vitepress-valence": "^0.1.13",
+    "@cynber/vitepress-valence": "^0.2.1",
     "@mdi/js": "^7.4.47",
     "markdown-it": "^14.1.0",
     "medium-zoom": "^1.1.0"

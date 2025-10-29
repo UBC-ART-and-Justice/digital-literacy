@@ -7,7 +7,7 @@ banner: "/gallery/2024_art-activism/1-environmental-justice.jpeg"
 
 ---
 
-<BlogPostHeader 
+<VpvArticleHeader 
   hideCategory="true"
   hideDate="true"
   hideBanner="true"
@@ -20,7 +20,7 @@ For the past two years, ART & Justice has been part of a collaborative project w
 
 ## View the Art Gallery
 
-<ImageGallery
+<VpvImageGallery
     title="Art Activism 2024"
     :folders="[
         '/gallery/2024_art-activism',

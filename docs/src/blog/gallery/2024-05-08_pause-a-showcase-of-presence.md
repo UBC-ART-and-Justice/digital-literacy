@@ -10,7 +10,7 @@ banner: "/gallery/2024-05-08_pause-a-showcase-of-presence/images/image-1.jpg"
 
 ---
 
-<BlogPostHeader 
+<VpvArticleHeader 
   hideCategory="true"
   hideDate="true"
   hideBanner="true"
@@ -28,7 +28,7 @@ Inspired by the concept of pause, pausing and paused. To pause is to take a brea
 
 ### View the Art Gallery
 
-<ImageGallery
+<VpvImageGallery
     title="The Gallery at Queen’s Park, New Westminster"
     date="2024-01-17"
     :folders="[
@@ -38,7 +38,7 @@ Inspired by the concept of pause, pausing and paused. To pause is to take a brea
 
 ### Read the Poetry
 
-<ImageGallery
+<VpvImageGallery
     title="The Gallery at Queen’s Park, New Westminster"
     date="2024-01-17"
     :folders="[

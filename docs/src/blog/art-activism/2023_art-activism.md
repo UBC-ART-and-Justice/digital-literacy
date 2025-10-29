@@ -7,7 +7,7 @@ banner: "/gallery/2023_art-activism/art-activism-2023-1.png"
 
 ---
 
-<BlogPostHeader 
+<VpvArticleHeader 
   hideCategory="true"
   hideDate="true"
   hideBanner="true"
@@ -20,7 +20,7 @@ For the past two years, ART & Justice has been part of a collaborative project w
 
 ## View the Art Gallery
 
-<ImageGallery
+<VpvImageGallery
   title="Art Activism 2023"
   :folders="[
     '/gallery/2022-09-23_forgotten-artists-art-is-our-freedom',

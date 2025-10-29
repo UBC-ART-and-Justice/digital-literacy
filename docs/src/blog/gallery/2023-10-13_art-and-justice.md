@@ -10,7 +10,7 @@ banner: "/gallery/2023-10-13_art-and-justice/art-and-justice-9.jpg"
 
 ---
 
-<BlogPostHeader 
+<VpvArticleHeader 
   hideCategory="true"
   hideDate="true"
   hideBanner="true"
@@ -23,7 +23,7 @@ The Vancouver Outsider Arts Festival showcases the work of visual artists and pe
 
 ## View the Art Gallery
 
-<ImageGallery
+<VpvImageGallery
     title="A.R.T. & Justice"
     date="2023-10-13"
     :folders="[
