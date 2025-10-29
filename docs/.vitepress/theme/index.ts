@@ -9,23 +9,16 @@ import { Icon } from '@iconify/vue';              // Iconify
 import { onMounted, watch, nextTick } from 'vue'; // Medium Zoom
 import { useRoute } from 'vitepress';
 import mediumZoom from 'medium-zoom';
-// import ImageGallery from './components/ImageGallery.vue'
+// import VpvImageGallery from './components/VpvImageGallery.vue'
 import MdiIcon from './components/MdiIcon.vue'
 import VitepressCard from './components/VitepressCard.vue';
 import VitepressCardContainer from './components/VitepressCardContainer.vue';
 // New Components
 import '@cynber/vitepress-valence/style.css'
 import {
-  JSONTable,
-  BlogPostHeader,
-  BlogPostList,
-  HorizontalContainer,
-  VerticalContainer,
-  HorizontalCard,
-  VerticalCard,
-  ImageGallery,
-  EmbedLemmy,
-  EmbedMailchimpSubscribe,
+  VpvArticleHeader,
+  VpvArticleList,
+  VpvImageGallery,
 } from '@cynber/vitepress-valence'
 import authors from './data/authors.js'
 import { data as postsData } from './data/posts.data.js';
@@ -46,16 +39,9 @@ export default {
     app.component('VitepressCard', VitepressCard);
     app.component('VitepressCardContainer', VitepressCardContainer);
     // New Components
-    app.component('ImageGallery', ImageGallery)
-    app.component('BlogPostHeader', BlogPostHeader)
-    app.component('BlogPostList', BlogPostList)
-    app.component('HorizontalContainer', HorizontalContainer)
-    app.component('VerticalContainer', VerticalContainer)
-    app.component('HorizontalCard', HorizontalCard)
-    app.component('VerticalCard', VerticalCard)
-    app.component('JSONTable', JSONTable)
-    app.component('EmbedLemmy', EmbedLemmy)
-    app.component('EmbedMailchimpSubscribe', EmbedMailchimpSubscribe)
+    app.component('VpvImageGallery', VpvImageGallery)
+    app.component('VpvArticleHeader', VpvArticleHeader)
+    app.component('VpvArticleList', VpvArticleList)
     app.provide('authors', authors)
     app.provide('postsData', postsData)
     app.provide('galleryData', galleryData)

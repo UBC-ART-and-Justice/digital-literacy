@@ -10,7 +10,7 @@ banner: "/gallery/2022-09-23_forgotten-artists-art-is-our-freedom/the-reach-1.jp
 
 ---
 
-<BlogPostHeader 
+<VpvArticleHeader 
   hideCategory="true"
   hideDate="true"
   hideBanner="true"
@@ -36,7 +36,7 @@ Inspired by the important artistic voice and vision of people in prison, and aim
 
 ## View the Art Gallery
 
-<ImageGallery
+<VpvImageGallery
     title="Forgotten Artists: Art is Out Freedom"
     date="2022-09-23"
     :folders="[
